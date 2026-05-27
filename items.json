@@ -79,7 +79,7 @@
           "store": "Cida Lima",
           "status": "owned",
           "date_bought": "2026-05-27",
-          "image_url": "images/cida-lima-cabeca.png"
+          "image_url": "images/cida-lima-cabeca.webp"
         },
         {
           "name": "Cida Lima ceramic head (P)",
@@ -87,7 +87,7 @@
           "store": "Cida Lima",
           "status": "owned",
           "date_bought": "2026-05-27",
-          "image_url": "images/cida-lima-cabeca.png"
+          "image_url": "images/cida-lima-cabeca.webp"
         }
       ]
     },
@@ -152,8 +152,7 @@
           "url": "https://www.google.com/search?q=IKEA+Nordmela+4-drawer+dresser",
           "store": "IKEA",
           "status": "owned",
-          "date_bought": "2026-05-27",
-          "image_url": "images/nordmela-dresser.jpg"
+          "date_bought": "2026-05-27"
         }
       ]
     },

@@ -58,16 +58,17 @@
           "brand": "IKEA"
         },
         {
-          "name": "Google Nest Hub (2nd gen)",
+          "name": "Nest Hub (2nd gen)",
           "url": "https://www.google.com/search?q=Google+Nest+Hub+%282nd+gen%29",
           "status": "owned",
           "image_url": "images/nest-hub.avif",
           "price": 118.8,
-          "currency": "CHF"
+          "currency": "CHF",
+          "brand": "Google"
         },
         {
-          "name": "Sonos Era 300 (Black)",
-          "url": "https://www.google.com/search?q=Sonos+Era+300+%28black%29",
+          "name": "Era 300 (Black)",
+          "url": "https://www.google.com/search?q=Sonos+Era+300+%28Black%29",
           "status": "owned",
           "image_url": "images/sonos-era-300.jpg",
           "price": 300.0,
@@ -75,8 +76,8 @@
           "brand": "Sonos"
         },
         {
-          "name": "Zara Home wooden armchair with removable covers × 2",
-          "url": "https://www.zarahome.com/ch/holzsessel-mit-abnehmbaren-bezugen-l48311073",
+          "name": "Wooden armchair with removable covers × 2",
+          "url": "https://www.google.com/search?q=Zara+Home+Wooden+armchair+with+removable+covers+%C3%97+2",
           "status": "planned",
           "price": 399.0,
           "currency": "CHF",
@@ -182,7 +183,7 @@
           "brand": "Xiaomi"
         },
         {
-          "name": "IKEA Nordmela 4-drawer dresser",
+          "name": "Nordmela 4-drawer dresser",
           "url": "https://www.google.com/search?q=IKEA+Nordmela+4-drawer+dresser",
           "status": "owned",
           "date_bought": "2026-05-27",
@@ -207,15 +208,15 @@
           "brand": "Kave Home"
         },
         {
-          "name": "KitchenAid Mini stand mixer (red)",
+          "name": "Mini stand mixer (red)",
           "url": "https://www.google.com/search?q=KitchenAid+Mini+stand+mixer+%28red%29",
           "status": "owned",
           "image_url": "images/kitchenaid-mini-red.jpg",
           "brand": "KitchenAid"
         },
         {
-          "name": "IKEA Franklin foldable bar stool (white, × 4)",
-          "url": "https://www.ikea.com/ch/de/p/franklin-barhocker-zusammenklappbar-arbeitsplattenhoehe-weiss-weiss-70404875/",
+          "name": "Franklin foldable bar stool (white, × 4)",
+          "url": "https://www.google.com/search?q=IKEA+Franklin+foldable+bar+stool+%28white%2C+%C3%97+4%29",
           "status": "to-sell",
           "image_url": "images/franklin-bar-stool.jpg",
           "brand": "IKEA"
@@ -238,7 +239,7 @@
           "brand": "IKEA"
         },
         {
-          "name": "Google Nest Audio",
+          "name": "Nest Audio",
           "url": "https://www.google.com/search?q=Google+Nest+Audio",
           "status": "owned",
           "date_bought": "2026-05-27",
@@ -305,7 +306,7 @@
           "brand": "Casio"
         },
         {
-          "name": "Google Nest Audio",
+          "name": "Nest Audio",
           "url": "https://www.google.com/search?q=Google+Nest+Audio",
           "status": "owned",
           "date_bought": "2026-05-27",
@@ -315,8 +316,8 @@
           "brand": "Google"
         },
         {
-          "name": "House Doctor trolley (burgundy)",
-          "url": "https://www.google.com/search?q=House+Doctor+trolley+%28burgundy%29",
+          "name": "Trolley (burgundy)",
+          "url": "https://www.google.com/search?q=House+Doctor+Trolley+%28burgundy%29",
           "status": "owned",
           "image_url": "images/house-doctor-trolley.webp",
           "price": 130,

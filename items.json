@@ -83,6 +83,13 @@
           "date_bought": "2025-09-12",
           "image_url": "images/kranbalk-ceiling-lamp.jpg",
           "status": "owned"
+        },
+        {
+          "name": "Petter wall-mounted nightstand (acacia wood)",
+          "url": "https://sklum.com",
+          "store": "Sklum",
+          "status": "owned",
+          "date_bought": "2026-05-27"
         }
       ]
     },
@@ -114,6 +121,14 @@
           "price_chf": 383.95,
           "date_bought": "2024-08-31",
           "status": "owned"
+        },
+        {
+          "name": "KARE Dottore office swivel chair (black)",
+          "url": "https://www.kare.ch/Buerodrehstuhl-Dottore-Black/4025621828914",
+          "store": "KARE Design",
+          "status": "owned",
+          "price_chf": 479,
+          "date_bought": "2026-05-27"
         }
       ]
     },

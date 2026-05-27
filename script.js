@@ -1,9 +1,13 @@
+let DATA = null;
+let STATUS_FILTER = "all";
+
 async function load() {
   try {
     const res = await fetch(`items.json?v=${Date.now()}`);
-    const data = await res.json();
-    render(data);
+    DATA = await res.json();
+    render();
     setupScrollSpy();
+    setupFilters();
   } catch (err) {
     document.getElementById("rooms").innerHTML =
       `<p class="loading">Could not load list.</p>`;
@@ -13,8 +17,35 @@ async function load() {
   }
 }
 
-function render(data) {
-  const rooms = (data.rooms || []).filter((r) => r && r.slug && r.name);
+function statusOf(it) {
+  if (it.status) return it.status;
+  if (it.bought) return "owned";
+  return "planned";
+}
+
+function setupFilters() {
+  document.querySelectorAll(".filters button").forEach((b) => {
+    b.addEventListener("click", () => {
+      STATUS_FILTER = b.dataset.status;
+      document.querySelectorAll(".filters button").forEach((x) =>
+        x.classList.toggle("active", x === b)
+      );
+      render();
+      setupScrollSpy();
+    });
+  });
+}
+
+function render() {
+  if (!DATA) return;
+  const allRooms = (DATA.rooms || []).filter((r) => r && r.slug && r.name);
+  // Filter items per room by status
+  const rooms = allRooms.map((r) => ({
+    ...r,
+    items: (r.items || []).filter(
+      (it) => STATUS_FILTER === "all" || statusOf(it) === STATUS_FILTER
+    ),
+  }));
 
   document.querySelector(".room-nav-inner").innerHTML = rooms
     .map(
@@ -45,16 +76,18 @@ function renderRoom(room) {
 
 function renderCard(it) {
   const url = it.url || "#";
+  const status = statusOf(it);
   const image = it.image_url
     ? `<div class="image"><img src="${escapeAttr(it.image_url)}" alt="${escapeAttr(it.name || "")}" loading="lazy" onerror="this.parentElement.classList.add('broken')"/></div>`
     : `<div class="image broken"></div>`;
 
   const store = it.store ? `<div class="store">${escape(it.store)}</div>` : "";
   let detail = "";
-  if (it.bought) {
+  if (status === "owned" || status === "sold") {
     const parts = [];
     if (it.price_chf != null) parts.push(fmtCHF(it.price_chf));
-    if (it.date_bought) parts.push(fmtDate(it.date_bought));
+    if (status === "owned" && it.date_bought) parts.push(fmtDate(it.date_bought));
+    if (status === "sold" && it.date_sold) parts.push(`sold ${fmtDate(it.date_sold)}`);
     const line = parts.length
       ? `<div class="meta">${parts.map(escape).join(" · ")}</div>`
       : "";
@@ -62,14 +95,17 @@ function renderCard(it) {
       ? `<div class="dims">${escape(it.dimensions)}</div>`
       : "";
     detail = `${line}${dims}`;
+  } else if (it.dimensions) {
+    detail = `<div class="dims">${escape(it.dimensions)}</div>`;
   }
-  const ownedTag = it.bought ? `<div class="owned-tag">Owned</div>` : "";
+  const tagText = status === "owned" ? "Owned" : status === "sold" ? "Sold" : "";
+  const tag = tagText ? `<div class="status-tag tag-${status}">${tagText}</div>` : "";
 
   return `
-    <a class="card${it.bought ? " owned" : ""}" href="${escapeAttr(url)}" target="_blank" rel="noopener">
+    <a class="card status-${status}" href="${escapeAttr(url)}" target="_blank" rel="noopener">
       ${image}
       <div class="content">
-        ${ownedTag}
+        ${tag}
         <div class="name">${escape(it.name || "")}</div>
         ${store}
         ${detail}

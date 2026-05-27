@@ -20,6 +20,13 @@
     <div class="room-nav-inner"></div>
   </nav>
 
+  <div class="filters" role="tablist" aria-label="Status filter">
+    <button type="button" data-status="all" class="active">All</button>
+    <button type="button" data-status="planned">Planned</button>
+    <button type="button" data-status="owned">Owned</button>
+    <button type="button" data-status="sold">Sold</button>
+  </div>
+
   <main id="rooms" aria-busy="true">
     <p class="loading">Loading…</p>
   </main>

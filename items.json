@@ -113,6 +113,14 @@
           "currency": "BRL",
           "image_url": "images/abaporu-medio.png",
           "brand": "Westwing BR"
+        },
+        {
+          "name": "RINGSTA / SKAFTET floor lamp (white, brass) × 2",
+          "url": "https://www.ikea.com/ch/de/p/ringsta-skaftet-standleuchte-weiss-messing-s59385958/",
+          "brand": "IKEA",
+          "status": "owned",
+          "date_bought": "2026-05-27",
+          "image_url": "images/ringsta-skaftet-floor-lamp.png"
         }
       ]
     },

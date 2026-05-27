@@ -63,6 +63,27 @@
           "url": "https://www.google.com/search?q=Sonos+Era+300+%28black%29",
           "status": "planned",
           "image_url": "images/sonos-era-300.jpg"
+        },
+        {
+          "name": "Zara Home wooden armchair with removable covers × 2",
+          "url": "https://www.google.com/search?q=Zara+Home+Holzsessel+mit+abnehmbaren+Bez%C3%BCgen",
+          "store": "Zara Home",
+          "status": "planned"
+        },
+        {
+          "name": "Cida Lima ceramic head (M)",
+          "url": "https://www.google.com/search?q=Cida+Lima+cabe%C3%A7a+cer%C3%A2mica+M",
+          "store": "Cida Lima",
+          "status": "owned",
+          "date_bought": "2026-05-27",
+          "image_url": "images/cida-lima-cabeca-m.jpg"
+        },
+        {
+          "name": "Cida Lima ceramic head (P)",
+          "url": "https://www.google.com/search?q=Cida+Lima+cabe%C3%A7a+cer%C3%A2mica+P",
+          "store": "Cida Lima",
+          "status": "owned",
+          "date_bought": "2026-05-27"
         }
       ]
     },
@@ -117,6 +138,14 @@
           "url": "https://www.google.com/search?q=Xiaomi+Mi+Smart+Projector+2",
           "status": "planned",
           "image_url": "images/xiaomi-projector-2.jpg"
+        },
+        {
+          "name": "IKEA Nordmela 4-drawer dresser",
+          "url": "https://www.google.com/search?q=IKEA+Nordmela+4-drawer+dresser",
+          "store": "IKEA",
+          "status": "owned",
+          "date_bought": "2026-05-27",
+          "image_url": "images/nordmela-dresser.jpg"
         }
       ]
     },
@@ -155,12 +184,11 @@
           "dimensions": "49 × 43 × 37 cm"
         },
         {
-          "name": "Google Nest Hub (2nd gen)",
-          "url": "https://www.google.com/search?q=Google+Nest+Hub+%282nd+gen%29",
+          "name": "Google Nest Audio",
+          "url": "https://www.google.com/search?q=Google+Nest+Audio",
           "store": "Google",
           "status": "owned",
-          "date_bought": "2026-05-27",
-          "image_url": "images/nest-hub.jpg"
+          "date_bought": "2026-05-27"
         }
       ]
     },
@@ -214,12 +242,11 @@
           "image_url": "https://static01.galaxus.com/productimages/4/9/1/2/5/8/8/7/5/1/4/2/6/2/4/0/9/4/2/fc8aae3b-0747-4bc8-bd15-6e822df185c0_cropped.jpg_720.jpeg"
         },
         {
-          "name": "Google Nest Hub (2nd gen)",
-          "url": "https://www.google.com/search?q=Google+Nest+Hub+%282nd+gen%29",
+          "name": "Google Nest Audio",
+          "url": "https://www.google.com/search?q=Google+Nest+Audio",
           "store": "Google",
           "status": "owned",
-          "date_bought": "2026-05-27",
-          "image_url": "images/nest-hub.jpg"
+          "date_bought": "2026-05-27"
         },
         {
           "name": "House Doctor Tolley stool (burgundy)",

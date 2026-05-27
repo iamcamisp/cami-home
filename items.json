@@ -20,6 +20,7 @@
           "store": "Maisons du Monde",
           "price_chf": 299.9,
           "date_bought": "2023-02-05",
+          "dimensions": "B 100 × H 70 × T 45 cm",
           "status": "owned",
           "image_url": "images/solstice-buffet.jpg"
         },
@@ -29,7 +30,7 @@
           "store": "Maisons du Monde",
           "price_chf": 49.95,
           "date_bought": "2023-02-05",
-          "status": "owned"
+          "status": "sold"
         },
         {
           "name": "Jute pouf Clemens (natural)",
@@ -44,6 +45,7 @@
           "name": "Kadey hand-tufted wool rug (organic shape)",
           "url": "https://www.google.com/search?q=Kadey+hand-tufted+wool+rug+%28organic+shape%29",
           "store": "Westwing",
+          "price_chf": 549,
           "status": "owned",
           "date_bought": "2026-05-27",
           "image_url": "images/kadey-rug.jpg"
@@ -100,13 +102,6 @@
           "status": "owned",
           "date_bought": "2026-05-27"
         },
-        {
-          "name": "Wind Calm ceiling fan (natural wood)",
-          "url": "https://www.google.com/search?q=Wind+Calm+ceiling+fan+%28natural+wood%29",
-          "store": "Create",
-          "status": "planned",
-          "image_url": "https://cdn.create-store.com/de/5183288/wind-calm-natural-wood.jpg"
-        }
       ]
     },
     {
@@ -137,6 +132,7 @@
           "store": "Maisons du Monde",
           "price_chf": 383.95,
           "date_bought": "2024-08-31",
+          "dimensions": B 125 × H 62 × T 29 cm | 36kg
           "status": "owned",
           "image_url": "images/malmo-desk.jpg"
         },
@@ -150,10 +146,19 @@
           "image_url": "images/dottore-chair.jpg"
         },
         {
+          "name": "Wind Calm ceiling fan (natural wood)",
+          "url": "https://www.google.com/search?q=Wind+Calm+ceiling+fan+%28natural+wood%29",
+          "store": "Create",
+          "status": "owned",
+          "price_chf": 129,95,
+          "image_url": "https://cdn.create-store.com/de/5183288/wind-calm-natural-wood.jpg"
+        },
+        {
           "name": "Casio CDP-S110BK digital piano (88 weighted keys, black)",
           "url": "https://www.google.com/search?q=Casio+CDP-S110BK+digital+piano+%2888+weighted+keys%2C+black%29",
           "store": "Amazon.de",
-          "status": "planned",
+          "status": "owned",
+          "price_chf": 270,
           "image_url": "https://static01.galaxus.com/productimages/4/9/1/2/5/8/8/7/5/1/4/2/6/2/4/0/9/4/2/fc8aae3b-0747-4bc8-bd15-6e822df185c0_cropped.jpg_720.jpeg"
         }
       ]
@@ -168,6 +173,7 @@
           "store": "Fatboy",
           "dimensions": "134 × 180 cm",
           "status": "planned",
+          "price_chf": 339
           "image_url": "https://www.fatboy.com/dw/image/v2/BLBH_PRD/on/demandware.static/-/Sites-master-catalog/default/dw59df1a4f/assets/image/105299/fatboy-original-outdoor-red-1920x1280-packshot-01-105299.jpg?sw=1920&q=80&fmt=webp"
         }
       ]

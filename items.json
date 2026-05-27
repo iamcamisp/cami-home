@@ -137,7 +137,8 @@
           "store": "Maisons du Monde",
           "price_chf": 383.95,
           "date_bought": "2024-08-31",
-          "status": "owned"
+          "status": "owned",
+          "image_url": "images/malmo-desk.jpg"
         },
         {
           "name": "KARE Dottore office swivel chair (black)",

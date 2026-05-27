@@ -125,6 +125,14 @@
           "image_url": "images/kranbalk-ceiling-lamp.jpg",
           "status": "owned",
           "dimensions": "49 × 43 × 37 cm"
+        },
+        {
+          "name": "Google Nest Hub (2nd gen)",
+          "url": "https://www.google.com/search?q=Google+Nest+Hub+%282nd+gen%29",
+          "store": "Google",
+          "status": "owned",
+          "date_bought": "2026-05-27",
+          "image_url": "images/nest-hub.jpg"
         }
       ]
     },
@@ -176,6 +184,14 @@
           "status": "owned",
           "price_chf": 270,
           "image_url": "https://static01.galaxus.com/productimages/4/9/1/2/5/8/8/7/5/1/4/2/6/2/4/0/9/4/2/fc8aae3b-0747-4bc8-bd15-6e822df185c0_cropped.jpg_720.jpeg"
+        },
+        {
+          "name": "Google Nest Hub (2nd gen)",
+          "url": "https://www.google.com/search?q=Google+Nest+Hub+%282nd+gen%29",
+          "store": "Google",
+          "status": "owned",
+          "date_bought": "2026-05-27",
+          "image_url": "images/nest-hub.jpg"
         }
       ]
     },

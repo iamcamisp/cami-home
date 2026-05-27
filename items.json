@@ -21,7 +21,8 @@
           "store": "Maisons du Monde",
           "price_chf": 49.95,
           "date_bought": "2023-02-05",
-          "status": "sold"
+          "status": "sold",
+          "image_url": "images/oak-ladder.jpg"
         },
         {
           "name": "Kadey hand-tufted wool rug (organic shape)",

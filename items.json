@@ -60,15 +60,16 @@
         {
           "name": "Google Nest Hub (2nd gen)",
           "url": "https://www.google.com/search?q=Google+Nest+Hub+%282nd+gen%29",
-          "status": "planned",
+          "status": "owned",
           "image_url": "images/nest-hub.avif",
           "price": 118.8,
           "currency": "CHF"
         },
         {
-          "name": "Sonos Era 300 (black)",
+          "name": "Sonos Era 300 (Black)",
+          "store": "Sonos",
           "url": "https://www.google.com/search?q=Sonos+Era+300+%28black%29",
-          "status": "planned",
+          "status": "owned",
           "image_url": "images/sonos-era-300.jpg",
           "price": 300.0,
           "currency": "CHF"
@@ -82,27 +83,33 @@
           "currency": "CHF"
         },
         {
-          "name": "Cida Lima ceramic head (M)",
+          "name": "Ceramic head (M)",
           "url": "https://www.google.com/search?q=Cida+Lima+cabe%C3%A7a+cer%C3%A2mica+M",
           "store": "Cida Lima",
           "status": "owned",
-          "date_bought": "2026-05-27",
+          "price": 260,
+          "currency": "BRL"
+          "date_bought": "2023-05-26",
           "image_url": "images/cida-lima-cabeca.webp"
         },
         {
-          "name": "Cida Lima ceramic head (P)",
+          "name": "Ceramic head (PP)",
           "url": "https://www.google.com/search?q=Cida+Lima+cabe%C3%A7a+cer%C3%A2mica+P",
           "store": "Cida Lima",
           "status": "owned",
-          "date_bought": "2026-05-27",
+          "price": 135,
+          "currency": "BRL"
+          "date_bought": "2023-05-26",
           "image_url": "images/cida-lima-cabeca.webp"
         },
         {
-          "name": "Abaporu decorative figure (medium)",
+          "name": "Abaporu decorative figure",
           "url": "https://www.westwing.com.br/adorno-decorativo-abaporu-medio-i-93976.html",
           "store": "Westwing BR",
           "status": "owned",
-          "date_bought": "2026-05-27",
+          "date_bought": "2024-10-20",
+          "price": 292,
+          "currency": "BRL"
           "image_url": "images/abaporu-medio.jpg"
         }
       ]
@@ -155,17 +162,19 @@
         {
           "name": "Agura bed 160 × 200",
           "url": "https://www.google.com/search?q=Agura+bed+160+%C3%97+200",
+          "store":"La Redoute",
           "status": "planned",
           "image_url": "images/agura-bed.avif",
-          "price": 885.0,
+          "price": 486.5,
           "currency": "CHF"
         },
         {
-          "name": "Xiaomi Mi Smart Projector 2",
+          "name": "Mi Smart Projector 2",
           "url": "https://www.google.com/search?q=Xiaomi+Mi+Smart+Projector+2",
-          "status": "planned",
+          "store": "Xiaomi",
+          "status": "owned",
           "image_url": "images/xiaomi-projector-2.jpg",
-          "price": 499.0,
+          "price": 549.0,
           "currency": "CHF"
         },
         {
@@ -189,13 +198,16 @@
           "status": "planned",
           "image_url": "https://d.media.kavehome.com/image/upload/w_900,f_auto,c_fill,g_auto,ar_0.8,dpr_2/v1727859217/products/C0600041MY12H_1V01.jpg",
           "dimensions": "46 × 50 × 96 cm",
-          "price": 319,
+          "price": 1276,
           "currency": "CHF"
         },
         {
           "name": "KitchenAid Mini stand mixer (red)",
+          "store": "KitchenAid",
           "url": "https://www.google.com/search?q=KitchenAid+Mini+stand+mixer+%28red%29",
-          "status": "planned",
+          "status": "owned",
+          "price":,
+          "currency":"",
           "image_url": "images/kitchenaid-mini-red.jpg"
         }
       ]
@@ -274,9 +286,9 @@
           "currency": "CHF"
         },
         {
-          "name": "Casio CDP-S110BK digital piano (88 weighted keys, black)",
+          "name": "CDP-S110BK digital piano (88 weighted keys, black)",
           "url": "https://www.google.com/search?q=Casio+CDP-S110BK+digital+piano+%2888+weighted+keys%2C+black%29",
-          "store": "Amazon.de",
+          "store": "Casio",
           "status": "owned",
           "image_url": "https://static01.galaxus.com/productimages/4/9/1/2/5/8/8/7/5/1/4/2/6/2/4/0/9/4/2/fc8aae3b-0747-4bc8-bd15-6e822df185c0_cropped.jpg_720.jpeg",
           "price": 270,
@@ -293,26 +305,33 @@
           "currency": "CHF"
         },
         {
-          "name": "House Doctor Tolley trolley (burgundy)",
+          "name": "Trolley (burgundy)",
+          "store":"House Doctor",
           "url": "https://www.google.com/search?q=House+Doctor+Tolley+trolley+burgundy",
           "status": "planned",
-          "image_url": "images/house-doctor-trolley.webp"
+          "image_url": "images/house-doctor-trolley.webp",
+          "price": 130,
+          "currency": "CHF"
         },
         {
-          "name": "Zara Home round alabaster table lamp",
+          "name": "Round alabaster table lamp",
           "url": "https://www.zarahome.com/ch/en/round-alabaster-table-lamp-l47127047",
           "store": "Zara Home",
           "status": "owned",
-          "date_bought": "2026-05-27",
-          "image_url": "images/zara-round-alabaster-lamp.jpg"
+          "date_bought": "2026-05-24",
+          "image_url": "images/zara-round-alabaster-lamp.jpg",
+          "price": 60,
+          "currency": "EUR"
         },
         {
-          "name": "Zara Home semioval alabaster table lamp",
+          "name": "Semioval alabaster table lamp",
           "url": "https://www.zarahome.com/ch/en/semioval-alabaster-table-lamp-l47128047",
           "store": "Zara Home",
           "status": "owned",
-          "date_bought": "2026-05-27",
-          "image_url": "images/zara-semioval-alabaster-lamp.jpg"
+          "date_bought": "2026-05-24",
+          "image_url": "images/zara-semioval-alabaster-lamp.jpg",
+          "price": 50,
+          "currency": "EUR"
         }
       ]
     },
@@ -331,7 +350,7 @@
           "currency": "CHF"
         },
         {
-          "name": "Fatboy Original Outdoor bean bag (red)",
+          "name": "Original Outdoor bean bag (red)",
           "url": "https://www.google.com/search?q=Fatboy+Original+Outdoor+bean+bag+%28red%29",
           "store": "Fatboy",
           "dimensions": "134 × 180 cm",
@@ -341,9 +360,10 @@
           "currency": "CHF"
         },
         {
-          "name": "Ooni Koda 12 gas pizza oven",
+          "name": "Koda 12 gas pizza oven",
+          "store": "Ooni",
           "url": "https://www.google.com/search?q=Ooni+Koda+12+gas+pizza+oven",
-          "status": "planned",
+          "status": "owned",
           "image_url": "images/ooni-koda-12.avif",
           "price": 499.0,
           "currency": "CHF"
@@ -355,11 +375,12 @@
       "name": "Other",
       "items": [
         {
-          "name": "Wahoo Kickr Core (smart bike trainer)",
+          "name": "Kickr Core (smart bike trainer)",
+          "store": "Wahoo",
           "url": "https://www.google.com/search?q=Wahoo+Kickr+Core+smart+bike+trainer",
-          "status": "planned",
+          "status": "owned",
           "image_url": "images/wahoo-kickr-core.jpg",
-          "price": 869.0,
+          "price": 478,
           "currency": "CHF"
         }
       ]

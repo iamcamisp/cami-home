@@ -140,7 +140,9 @@
           "status": "owned",
           "date_bought": "2026-05-27",
           "image_url": "images/teak-stool.jpg",
-          "category": "furniture"
+          "category": "furniture",
+          "price": 90,
+          "currency": "CHF"
         },
         {
           "name": "Eneas coffee table (acacia, steel)",

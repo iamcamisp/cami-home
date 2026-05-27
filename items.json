@@ -1,11 +1,119 @@
 {
   "owner": "Cami",
   "rooms": [
-    { "slug": "living-room", "name": "Living Room", "items": [] },
-    { "slug": "bedroom", "name": "Bedroom", "items": [] },
-    { "slug": "kitchen", "name": "Kitchen", "items": [] },
-    { "slug": "bathroom", "name": "Bathroom", "items": [] },
-    { "slug": "office", "name": "Office", "items": [] },
-    { "slug": "outdoor", "name": "Outdoor", "items": [] }
+    {
+      "slug": "living-room",
+      "name": "Living Room",
+      "items": [
+        {
+          "name": "ROMY 3-seater sofa with sleeper function (dark blue)",
+          "url": "https://www.maisonsdumonde.com/CH/de/p/romy-3-sitzer-sofa-mit-schlaffunktion-dunkelblau-247243.htm",
+          "store": "Maisons du Monde",
+          "bought": true,
+          "price_chf": 1499,
+          "date_bought": "2025-08-28",
+          "image_url": "images/romy-sofa.jpg"
+        },
+        {
+          "name": "SOLSTICE buffet with 2 doors (rattan weave)",
+          "url": "https://www.maisonsdumonde.com/CH/de/c/sideboards",
+          "store": "Maisons du Monde",
+          "bought": true,
+          "price_chf": 299.9,
+          "date_bought": "2023-02-05"
+        },
+        {
+          "name": "Decorative oak ladder",
+          "url": "https://www.maisonsdumonde.com/CH/de/c/leitern",
+          "store": "Maisons du Monde",
+          "bought": true,
+          "price_chf": 49.95,
+          "date_bought": "2023-02-05"
+        },
+        {
+          "name": "Jute pouf Clemens (natural)",
+          "url": "https://www.depot-online.com",
+          "store": "DEPOT",
+          "bought": true,
+          "price_chf": 83.3,
+          "date_bought": "2022-02-17",
+          "dimensions": "B 60 × H 35 × T 60 cm"
+        }
+      ]
+    },
+    {
+      "slug": "bedroom",
+      "name": "Bedroom",
+      "items": [
+        {
+          "name": "IKEA LEIRSUND slatted bed base (2)",
+          "url": "https://www.ikea.com/ch/en/p/leirsund-slatted-bed-base-adjustable-00278328/",
+          "store": "IKEA",
+          "bought": true,
+          "price_chf": 240,
+          "date_bought": "2026-04-24",
+          "dimensions": "80 × 200 cm (each)",
+          "image_url": "images/leirsund-bed-base.jpg"
+        },
+        {
+          "name": "IKEA VÅGSTRANDA pocket sprung mattress (medium firm)",
+          "url": "https://www.ikea.com/ch/en/p/vagstranda-pocket-sprung-mattress-60470390/",
+          "store": "IKEA",
+          "bought": true,
+          "price_chf": 269,
+          "date_bought": "2026-04-12",
+          "dimensions": "80 × 200 cm",
+          "image_url": "images/vagstranda-mattress-medium.jpg"
+        },
+        {
+          "name": "IKEA VÅGSTRANDA pocket sprung mattress (firm)",
+          "url": "https://www.ikea.com/ch/en/p/vagstranda-pocket-sprung-mattress-40470386/",
+          "store": "IKEA",
+          "bought": true,
+          "price_chf": 269,
+          "date_bought": "2026-04-12",
+          "dimensions": "80 × 200 cm",
+          "image_url": "images/vagstranda-mattress-firm.jpg"
+        },
+        {
+          "name": "IKEA KRANBALK ceiling lamp (beige)",
+          "url": "https://www.ikea.com/ch/en/p/kranbalk-ceiling-lamp-90549405/",
+          "store": "IKEA",
+          "bought": true,
+          "price_chf": 49.95,
+          "date_bought": "2025-09-12",
+          "image_url": "images/kranbalk-ceiling-lamp.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "kitchen",
+      "name": "Kitchen",
+      "items": []
+    },
+    {
+      "slug": "bathroom",
+      "name": "Bathroom",
+      "items": []
+    },
+    {
+      "slug": "office",
+      "name": "Office",
+      "items": [
+        {
+          "name": "MALMO desk with 2 drawers (solid acacia wood)",
+          "url": "https://www.maisonsdumonde.com/CH/de/p/schreibtisch-mit-2-schubladen-aus-massivem-akazienholz-malmo-199032.htm",
+          "store": "Maisons du Monde",
+          "bought": true,
+          "price_chf": 383.95,
+          "date_bought": "2024-08-31"
+        }
+      ]
+    },
+    {
+      "slug": "outdoor",
+      "name": "Outdoor",
+      "items": []
+    }
   ]
 }

@@ -6,15 +6,6 @@
       "name": "Living Room",
       "items": [
         {
-          "name": "ROMY 3-seater sofa with sleeper function (dark blue)",
-          "url": "https://www.google.com/search?q=ROMY+3-seater+sofa+with+sleeper+function+%28dark+blue%29",
-          "store": "Maisons du Monde",
-          "price_chf": 1499,
-          "date_bought": "2025-08-28",
-          "image_url": "images/romy-sofa.jpg",
-          "status": "owned"
-        },
-        {
           "name": "SOLSTICE buffet with 2 doors (rattan weave)",
           "url": "https://www.google.com/search?q=SOLSTICE+buffet+with+2+doors+%28rattan+weave%29",
           "store": "Maisons du Monde",
@@ -119,6 +110,15 @@
       "slug": "office",
       "name": "Office",
       "items": [
+        {
+          "name": "ROMY 3-seater sofa with sleeper function (dark blue)",
+          "url": "https://www.google.com/search?q=ROMY+3-seater+sofa+with+sleeper+function+%28dark+blue%29",
+          "store": "Maisons du Monde",
+          "price_chf": 1499,
+          "date_bought": "2025-08-28",
+          "image_url": "images/romy-sofa.jpg",
+          "status": "owned"
+        },
         {
           "name": "MALMO desk with 2 drawers (solid acacia wood)",
           "url": "https://www.google.com/search?q=MALMO+desk+with+2+drawers+%28solid+acacia+wood%29",

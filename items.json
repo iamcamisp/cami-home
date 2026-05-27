@@ -51,6 +51,18 @@
           "date_bought": "2026-05-27",
           "image_url": "images/ekenaset-armchair.jpg",
           "dimensions": "64 × 81 × 75 cm"
+        },
+        {
+          "name": "Google Nest Hub (2nd gen)",
+          "url": "https://www.google.com/search?q=Google+Nest+Hub+%282nd+gen%29",
+          "status": "planned",
+          "image_url": "images/nest-hub.jpg"
+        },
+        {
+          "name": "Sonos Era 300 (black)",
+          "url": "https://www.google.com/search?q=Sonos+Era+300+%28black%29",
+          "status": "planned",
+          "image_url": "images/sonos-era-300.jpg"
         }
       ]
     },
@@ -94,6 +106,17 @@
           "store": "Sklum",
           "status": "owned",
           "date_bought": "2026-05-27"
+        },
+        {
+          "name": "Agura bed 160 × 200",
+          "url": "https://www.google.com/search?q=Agura+bed+160+%C3%97+200",
+          "status": "planned"
+        },
+        {
+          "name": "Xiaomi Mi Smart Projector 2",
+          "url": "https://www.google.com/search?q=Xiaomi+Mi+Smart+Projector+2",
+          "status": "planned",
+          "image_url": "images/xiaomi-projector-2.jpg"
         }
       ]
     },
@@ -109,6 +132,11 @@
           "price_chf": 319,
           "image_url": "https://d.media.kavehome.com/image/upload/w_900,f_auto,c_fill,g_auto,ar_0.8,dpr_2/v1727859217/products/C0600041MY12H_1V01.jpg",
           "dimensions": "46 × 50 × 96 cm"
+        },
+        {
+          "name": "KitchenAid Mini stand mixer (red)",
+          "url": "https://www.google.com/search?q=KitchenAid+Mini+stand+mixer+%28red%29",
+          "status": "planned"
         }
       ]
     },
@@ -192,6 +220,11 @@
           "status": "owned",
           "date_bought": "2026-05-27",
           "image_url": "images/nest-hub.jpg"
+        },
+        {
+          "name": "House Doctor Tolley stool (burgundy)",
+          "url": "https://www.google.com/search?q=House+Doctor+Tolley+stool+%28burgundy%29",
+          "status": "planned"
         }
       ]
     },
@@ -216,6 +249,24 @@
           "dimensions": "134 × 180 cm",
           "status": "planned",
           "image_url": "https://www.fatboy.com/dw/image/v2/BLBH_PRD/on/demandware.static/-/Sites-master-catalog/default/dw59df1a4f/assets/image/105299/fatboy-original-outdoor-red-1920x1280-packshot-01-105299.jpg?sw=1920&q=80&fmt=webp"
+        },
+        {
+          "name": "Ooni pizza oven (small)",
+          "url": "https://www.google.com/search?q=Ooni+pizza+oven+%28small%29",
+          "status": "planned",
+          "image_url": "images/ooni-pizza-oven.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "other",
+      "name": "Other",
+      "items": [
+        {
+          "name": "Wahoo Kickr (smart bike trainer)",
+          "url": "https://www.google.com/search?q=Wahoo+Kickr+%28smart+bike+trainer%29",
+          "status": "planned",
+          "image_url": "images/wahoo-kickr.jpg"
         }
       ]
     }

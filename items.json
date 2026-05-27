@@ -11,7 +11,7 @@
           "date_bought": "2023-02-05",
           "dimensions": "W 100 × D 45 × H 70 cm",
           "status": "owned",
-          "image_url": "images/solstice-buffet.jpg",
+          "image_url": "images/solstice-buffet.png",
           "price": 299.9,
           "currency": "CHF",
           "brand": "Maisons du Monde"
@@ -21,7 +21,7 @@
           "url": "https://www.google.com/search?q=Maisons+du+Monde+Decorative+ladder+%28oak%29",
           "date_bought": "2023-02-05",
           "status": "sold",
-          "image_url": "images/oak-ladder.jpg",
+          "image_url": "images/oak-ladder.png",
           "price": 49.95,
           "currency": "CHF",
           "brand": "Maisons du Monde"
@@ -31,7 +31,7 @@
           "url": "https://www.google.com/search?q=Westwing+Kadey+hand-tufted+rug+%28wool%2C+organic+shape%29",
           "status": "owned",
           "date_bought": "2026-05-27",
-          "image_url": "images/kadey-rug.jpg",
+          "image_url": "images/kadey-rug.png",
           "price": 549,
           "currency": "CHF",
           "brand": "Westwing"
@@ -41,7 +41,7 @@
           "url": "https://www.google.com/search?q=H%26M+Home+item+%281105665002%29",
           "status": "owned",
           "date_bought": "2026-05-27",
-          "image_url": "images/hm-1105665002.jpg",
+          "image_url": "images/hm-1105665002.png",
           "price": 239,
           "currency": "CHF",
           "brand": "Houseof"
@@ -51,7 +51,7 @@
           "url": "https://www.ikea.com/ch/en/p/ekenaeset-armchair-oak-gunnared-beige-60506898/",
           "status": "to-sell",
           "date_bought": "2026-05-27",
-          "image_url": "images/ekenaset-armchair.jpg",
+          "image_url": "images/ekenaset-armchair.png",
           "dimensions": "W 64 × D 81 × H 75 cm",
           "price": 498,
           "currency": "CHF",
@@ -61,7 +61,7 @@
           "name": "Nest Hub (2nd gen)",
           "url": "https://www.google.com/search?q=Google+Nest+Hub+%282nd+gen%29",
           "status": "owned",
-          "image_url": "images/nest-hub.avif",
+          "image_url": "images/nest-hub.png",
           "price": 118.8,
           "currency": "CHF",
           "brand": "Google"
@@ -70,7 +70,7 @@
           "name": "Era 300 (Black)",
           "url": "https://www.google.com/search?q=Sonos+Era+300+%28Black%29",
           "status": "owned",
-          "image_url": "images/sonos-era-300.jpg",
+          "image_url": "images/sonos-era-300.png",
           "price": 300.0,
           "currency": "CHF",
           "brand": "Sonos"
@@ -81,7 +81,7 @@
           "status": "planned",
           "price": 918,
           "currency": "CHF",
-          "image_url": "images/zara-home-holzsessel.jpg",
+          "image_url": "images/zara-home-holzsessel.png",
           "brand": "Zara Home"
         },
         {
@@ -91,7 +91,7 @@
           "price": 260,
           "currency": "BRL",
           "date_bought": "2023-05-26",
-          "image_url": "images/cida-lima-cabeca.webp",
+          "image_url": "images/cida-lima-cabeca.png",
           "brand": "Cida Lima"
         },
         {
@@ -101,7 +101,7 @@
           "price": 135,
           "currency": "BRL",
           "date_bought": "2023-05-26",
-          "image_url": "images/cida-lima-cabeca.webp",
+          "image_url": "images/cida-lima-cabeca.png",
           "brand": "Cida Lima"
         },
         {
@@ -111,7 +111,7 @@
           "date_bought": "2024-10-20",
           "price": 292,
           "currency": "BRL",
-          "image_url": "images/abaporu-medio.jpg",
+          "image_url": "images/abaporu-medio.png",
           "brand": "Westwing BR"
         }
       ]
@@ -125,7 +125,7 @@
           "url": "https://www.google.com/search?q=IKEA+LEIRSUND+slatted+bed+base+%C3%97+2",
           "date_bought": "2026-04-24",
           "dimensions": "W 80 × L 200 cm (each)",
-          "image_url": "images/leirsund-bed-base.jpg",
+          "image_url": "images/leirsund-bed-base.png",
           "status": "owned",
           "price": 240,
           "currency": "CHF",
@@ -136,7 +136,7 @@
           "url": "https://www.google.com/search?q=IKEA+V%C3%85GSTRANDA+pocket+sprung+mattress+%28medium+firm%29",
           "date_bought": "2026-04-12",
           "dimensions": "W 80 × L 200 cm",
-          "image_url": "images/vagstranda-mattress-medium.jpg",
+          "image_url": "images/vagstranda-mattress-medium.png",
           "status": "owned",
           "price": 269,
           "currency": "CHF",
@@ -147,7 +147,7 @@
           "url": "https://www.google.com/search?q=IKEA+V%C3%85GSTRANDA+pocket+sprung+mattress+%28firm%29",
           "date_bought": "2026-04-12",
           "dimensions": "W 80 × L 200 cm",
-          "image_url": "images/vagstranda-mattress-firm.jpg",
+          "image_url": "images/vagstranda-mattress-firm.png",
           "status": "owned",
           "price": 269,
           "currency": "CHF",
@@ -158,7 +158,7 @@
           "url": "https://www.google.com/search?q=Sklum+Petter+wall-mounted+nightstand+%28acacia%29+%C3%97+2",
           "status": "owned",
           "date_bought": "2025-02-03",
-          "image_url": "images/petter-nightstand.jpg",
+          "image_url": "images/petter-nightstand.png",
           "price": 279.9,
           "currency": "EUR",
           "brand": "Sklum"
@@ -167,7 +167,7 @@
           "name": "Agura bed",
           "url": "https://www.google.com/search?q=Agura+bed+La+Redoute",
           "status": "planned",
-          "image_url": "images/agura-bed.avif",
+          "image_url": "images/agura-bed.png",
           "price": 486.5,
           "currency": "CHF",
           "dimensions": "W 160 × L 200 cm",
@@ -177,7 +177,7 @@
           "name": "Mi Smart Projector 2",
           "url": "https://www.google.com/search?q=Xiaomi+Mi+Smart+Projector+2",
           "status": "owned",
-          "image_url": "images/xiaomi-projector-2.jpg",
+          "image_url": "images/xiaomi-projector-2.png",
           "price": 549.0,
           "currency": "CHF",
           "brand": "Xiaomi"
@@ -187,7 +187,7 @@
           "url": "https://www.google.com/search?q=IKEA+Nordmela+4-drawer+dresser",
           "status": "owned",
           "date_bought": "2026-05-27",
-          "image_url": "images/nordmela-dresser.jpg",
+          "image_url": "images/nordmela-dresser.png",
           "dimensions": "W 159 × D 40 × H 50 cm",
           "brand": "IKEA"
         }
@@ -211,14 +211,14 @@
           "name": "Mini stand mixer (red)",
           "url": "https://www.google.com/search?q=KitchenAid+Mini+stand+mixer+%28red%29",
           "status": "owned",
-          "image_url": "images/kitchenaid-mini-red.jpg",
+          "image_url": "images/kitchenaid-mini-red.png",
           "brand": "KitchenAid"
         },
         {
           "name": "Franklin foldable bar stool (white) × 4",
           "url": "https://www.google.com/search?q=IKEA+Franklin+foldable+bar+stool+%28white%29+%C3%97+4",
           "status": "to-sell",
-          "image_url": "images/franklin-bar-stool.jpg",
+          "image_url": "images/franklin-bar-stool.png",
           "brand": "IKEA",
           "price": 159.8,
           "currency": "CHF"
@@ -233,7 +233,7 @@
           "name": "KRANBALK ceiling lamp (beige)",
           "url": "https://www.google.com/search?q=IKEA+KRANBALK+ceiling+lamp+%28beige%29",
           "date_bought": "2025-09-12",
-          "image_url": "images/kranbalk-ceiling-lamp.jpg",
+          "image_url": "images/kranbalk-ceiling-lamp.png",
           "status": "owned",
           "dimensions": "W 49 × D 43 × H 37 cm",
           "price": 49.95,
@@ -245,7 +245,7 @@
           "url": "https://www.google.com/search?q=Google+Nest+Audio",
           "status": "owned",
           "date_bought": "2026-05-27",
-          "image_url": "images/nest-audio.jpg",
+          "image_url": "images/nest-audio.png",
           "price": 109.0,
           "currency": "CHF",
           "brand": "Google"
@@ -260,7 +260,7 @@
           "name": "ROMY 3-seater sofa with sleeper function (dark blue)",
           "url": "https://www.google.com/search?q=ROMY+3-seater+sofa+with+sleeper+function+%28dark+blue%29",
           "date_bought": "2025-08-28",
-          "image_url": "images/romy-sofa.jpg",
+          "image_url": "images/romy-sofa.png",
           "status": "owned",
           "dimensions": "W 202 × D 103 × H 88 cm (89 kg)",
           "price": 1499,
@@ -273,7 +273,7 @@
           "date_bought": "2024-08-31",
           "dimensions": "W 125 × D 29 × H 62 cm (36 kg)",
           "status": "owned",
-          "image_url": "images/malmo-desk.jpg",
+          "image_url": "images/malmo-desk.png",
           "price": 383.95,
           "currency": "CHF",
           "brand": "Maisons du Monde"
@@ -283,7 +283,7 @@
           "url": "https://www.google.com/search?q=KARE+Dottore+office+swivel+chair+%28black%29",
           "status": "owned",
           "date_bought": "2026-05-27",
-          "image_url": "images/dottore-chair.jpg",
+          "image_url": "images/dottore-chair.png",
           "dimensions": "W 78 × D 44 × H 50 cm",
           "price": 479,
           "currency": "CHF",
@@ -312,7 +312,7 @@
           "url": "https://www.google.com/search?q=Google+Nest+Audio",
           "status": "owned",
           "date_bought": "2026-05-27",
-          "image_url": "images/nest-audio.jpg",
+          "image_url": "images/nest-audio.png",
           "price": 79.9,
           "currency": "CHF",
           "brand": "Google"
@@ -321,7 +321,7 @@
           "name": "Trolley (burgundy)",
           "url": "https://www.google.com/search?q=House+Doctor+Trolley+%28burgundy%29",
           "status": "owned",
-          "image_url": "images/house-doctor-trolley.webp",
+          "image_url": "images/house-doctor-trolley.png",
           "price": 130,
           "currency": "CHF",
           "date_bought": "2026-05-27",
@@ -333,7 +333,7 @@
           "url": "https://www.google.com/search?q=Zara+Home+Round+table+lamp+%28alabaster%29",
           "status": "owned",
           "date_bought": "2026-05-24",
-          "image_url": "images/zara-semioval-alabaster-lamp.jpg",
+          "image_url": "images/zara-semioval-alabaster-lamp.png",
           "price": 60,
           "currency": "EUR",
           "brand": "Zara Home"
@@ -343,7 +343,7 @@
           "url": "https://www.google.com/search?q=Zara+Home+Semioval+table+lamp+%28alabaster%29",
           "status": "owned",
           "date_bought": "2026-05-24",
-          "image_url": "images/zara-round-alabaster-lamp.jpg",
+          "image_url": "images/zara-round-alabaster-lamp.png",
           "price": 50,
           "currency": "EUR",
           "brand": "Zara Home"
@@ -378,7 +378,7 @@
           "name": "Koda 12 gas pizza oven",
           "url": "https://www.google.com/search?q=Ooni+Koda+12+gas+pizza+oven",
           "status": "owned",
-          "image_url": "images/ooni-koda-12.avif",
+          "image_url": "images/ooni-koda-12.png",
           "price": 499.0,
           "currency": "CHF",
           "brand": "Ooni"
@@ -393,7 +393,7 @@
           "name": "Kickr Core (smart bike trainer)",
           "url": "https://www.google.com/search?q=Wahoo+Kickr+Core+smart+bike+trainer",
           "status": "owned",
-          "image_url": "images/wahoo-kickr-core.jpg",
+          "image_url": "images/wahoo-kickr-core.png",
           "price": 478,
           "currency": "CHF",
           "brand": "Wahoo"

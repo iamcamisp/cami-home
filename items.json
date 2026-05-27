@@ -88,6 +88,14 @@
           "status": "owned",
           "date_bought": "2026-05-27",
           "image_url": "images/cida-lima-cabeca.webp"
+        },
+        {
+          "name": "Abaporu decorative figure (medium)",
+          "url": "https://www.westwing.com.br/adorno-decorativo-abaporu-medio-i-93976.html",
+          "store": "Westwing BR",
+          "status": "owned",
+          "date_bought": "2026-05-27",
+          "image_url": "images/abaporu-medio.jpg"
         }
       ]
     },

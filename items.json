@@ -20,7 +20,8 @@
           "store": "Maisons du Monde",
           "price_chf": 299.9,
           "date_bought": "2023-02-05",
-          "status": "owned"
+          "status": "owned",
+          "image_url": "images/solstice-buffet.jpg"
         },
         {
           "name": "Decorative oak ladder",
@@ -90,6 +91,13 @@
           "store": "Sklum",
           "status": "owned",
           "date_bought": "2026-05-27"
+        },
+        {
+          "name": "Wind Calm ceiling fan (natural wood)",
+          "url": "https://www.create-store.com/de/kaufen-deckenventilatoren/198302-wind-calm-natural-wood.html",
+          "store": "Create",
+          "status": "planned",
+          "image_url": "https://cdn.create-store.com/de/5183288/wind-calm-natural-wood.jpg"
         }
       ]
     },
@@ -101,7 +109,8 @@
           "name": "Helda stool 65 cm (beige chenille + solid oak)",
           "url": "https://kavehome.com/ch/de/p/helda-shocker-aus-beiger-chenille-und-massivem-eichenholz-fsc-mix-credit-65-cm",
           "store": "Kave Home",
-          "status": "planned"
+          "status": "planned",
+          "image_url": "https://d.media.kavehome.com/image/upload/w_900,f_auto,c_fill,g_auto,ar_0.8,dpr_2/v1727859217/products/C0600041MY12H_1V01.jpg"
         }
       ]
     },

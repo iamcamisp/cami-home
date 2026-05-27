@@ -33,15 +33,6 @@
           "status": "sold"
         },
         {
-          "name": "Jute pouf Clemens (natural)",
-          "url": "https://www.google.com/search?q=Jute+pouf+Clemens+%28natural%29",
-          "store": "DEPOT",
-          "price_chf": 83.3,
-          "date_bought": "2022-02-17",
-          "dimensions": "B 60 × H 35 × T 60 cm",
-          "status": "owned"
-        },
-        {
           "name": "Kadey hand-tufted wool rug (organic shape)",
           "url": "https://www.google.com/search?q=Kadey+hand-tufted+wool+rug+%28organic+shape%29",
           "store": "Westwing",
@@ -87,15 +78,6 @@
           "status": "owned"
         },
         {
-          "name": "IKEA KRANBALK ceiling lamp (beige)",
-          "url": "https://www.google.com/search?q=IKEA+KRANBALK+ceiling+lamp+%28beige%29",
-          "store": "IKEA",
-          "price_chf": 49.95,
-          "date_bought": "2025-09-12",
-          "image_url": "images/kranbalk-ceiling-lamp.jpg",
-          "status": "owned"
-        },
-        {
           "name": "Petter wall-mounted nightstand (acacia wood)",
           "url": "https://www.google.com/search?q=Petter+wall-mounted+nightstand+%28acacia+wood%29",
           "store": "Sklum",
@@ -121,7 +103,17 @@
     {
       "slug": "bathroom",
       "name": "Bathroom",
-      "items": []
+      "items": [
+        {
+          "name": "IKEA KRANBALK ceiling lamp (beige)",
+          "url": "https://www.google.com/search?q=IKEA+KRANBALK+ceiling+lamp+%28beige%29",
+          "store": "IKEA",
+          "price_chf": 49.95,
+          "date_bought": "2025-09-12",
+          "image_url": "images/kranbalk-ceiling-lamp.jpg",
+          "status": "owned"
+        },
+      ]
     },
     {
       "slug": "office",
@@ -168,6 +160,15 @@
       "slug": "outdoor",
       "name": "Outdoor",
       "items": [
+        {
+          "name": "Jute pouf Clemens (natural)",
+          "url": "https://www.google.com/search?q=Jute+pouf+Clemens+%28natural%29",
+          "store": "DEPOT",
+          "price_chf": 83.3,
+          "date_bought": "2022-02-17",
+          "dimensions": "B 60 × H 35 × T 60 cm",
+          "status": "owned"
+        },
         {
           "name": "Fatboy Original Outdoor bean bag (red)",
           "url": "https://www.google.com/search?q=Fatboy+Original+Outdoor+bean+bag+%28red%29",

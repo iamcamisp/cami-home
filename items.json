@@ -109,10 +109,11 @@
       "name": "Kitchen",
       "items": [
         {
-          "name": "Helda stool 65 cm (beige chenille + solid oak)",
+          "name": "Helda stool 65 cm (beige chenille + solid oak) (4)",
           "url": "https://www.google.com/search?q=Helda+stool+65+cm+%28beige+chenille+%2B+solid+oak%29",
           "store": "Kave Home",
           "status": "planned",
+          "price_chf": 319 each,
           "image_url": "https://d.media.kavehome.com/image/upload/w_900,f_auto,c_fill,g_auto,ar_0.8,dpr_2/v1727859217/products/C0600041MY12H_1V01.jpg"
         }
       ]

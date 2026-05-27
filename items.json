@@ -272,6 +272,17 @@
           "image_url": "images/zara-home-cement-table.png",
           "brand": "Zara Home",
           "category": "furniture"
+        },
+        {
+          "name": "LINDBYN mirror (black, 60×120 cm)",
+          "url": "https://www.ikea.com/ch/de/p/lindbyn-spiegel-schwarz-30471484/",
+          "status": "owned",
+          "dimensions": "W 60 × H 120 cm",
+          "price": 79.95,
+          "currency": "CHF",
+          "image_url": "images/lindbyn-mirror.jpg",
+          "brand": "IKEA",
+          "category": "decor"
         }
       ]
     },

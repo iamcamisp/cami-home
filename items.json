@@ -138,6 +138,13 @@
           "status": "owned",
           "price_chf": 479,
           "date_bought": "2026-05-27"
+        },
+        {
+          "name": "Casio CDP-S110BK digital piano (88 weighted keys, black)",
+          "url": "https://www.amazon.de/dp/B091G1HSH2",
+          "store": "Amazon.de",
+          "status": "planned",
+          "image_url": "https://static01.galaxus.com/productimages/4/9/1/2/5/8/8/7/5/1/4/2/6/2/4/0/9/4/2/fc8aae3b-0747-4bc8-bd15-6e822df185c0_cropped.jpg_720.jpeg"
         }
       ]
     },

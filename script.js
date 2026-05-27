@@ -1,5 +1,15 @@
 let DATA = null;
 let STATUS_FILTER = "all";
+let CATEGORY_FILTER = "all";
+
+const CATEGORY_LABEL = {
+  furniture: "Furniture",
+  lighting: "Lighting",
+  electronics: "Electronics",
+  appliances: "Appliances",
+  decor: "Decor",
+  other: "Other",
+};
 
 async function load() {
   try {

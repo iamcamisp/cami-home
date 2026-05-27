@@ -39,6 +39,14 @@
           "date_bought": "2022-02-17",
           "dimensions": "B 60 × H 35 × T 60 cm",
           "status": "owned"
+        },
+        {
+          "name": "Kadey hand-tufted wool rug (organic shape)",
+          "url": "https://www.westwing.de/handgetufteter-wollteppich-kadey-in-organischer-form-140636.html",
+          "store": "Westwing",
+          "status": "owned",
+          "date_bought": "2026-05-27",
+          "image_url": "images/kadey-rug.jpg"
         }
       ]
     },

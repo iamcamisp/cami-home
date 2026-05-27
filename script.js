@@ -33,15 +33,26 @@ function setupFilters() {
   });
 }
 
+const STATUS_ORDER = { owned: 1, planned: 2, "to-sell": 3, sold: 4 };
+
 function render() {
   if (!DATA) return;
-  const allRooms = (DATA.rooms || []).filter((r) => r && r.slug && r.name);
-  // Filter items per room by status
+  const allRooms = (DATA.rooms || [])
+    .filter((r) => r && r.slug && r.name)
+    .slice()
+    .sort((a, b) => a.name.localeCompare(b.name, "en"));
+  // Filter + sort items
   const rooms = allRooms.map((r) => ({
     ...r,
-    items: (r.items || []).filter(
-      (it) => STATUS_FILTER === "all" || statusOf(it) === STATUS_FILTER
-    ),
+    items: (r.items || [])
+      .filter((it) => STATUS_FILTER === "all" || statusOf(it) === STATUS_FILTER)
+      .slice()
+      .sort((a, b) => {
+        const sa = STATUS_ORDER[statusOf(a)] || 99;
+        const sb = STATUS_ORDER[statusOf(b)] || 99;
+        if (sa !== sb) return sa - sb;
+        return (a.name || "").localeCompare(b.name || "", "en");
+      }),
   }));
 
   document.querySelector(".room-nav-inner").innerHTML = rooms
@@ -97,6 +108,7 @@ function renderCard(it) {
   }
   const tagText =
     status === "owned" ? "Owned" :
+    status === "planned" ? "Planned" :
     status === "to-sell" ? "To sell" :
     status === "sold" ? "Sold" : "";
   const tag = tagText ? `<div class="status-tag tag-${status}">${tagText}</div>` : "";

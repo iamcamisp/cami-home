@@ -229,6 +229,7 @@ main {
   margin-bottom: 2px;
 }
 .card .tag-owned { color: var(--bg); background: var(--ink); }
+.card .tag-planned { color: var(--ink); background: transparent; border: 1px solid var(--ink); }
 .card .tag-to-sell { color: #8a4a1f; background: transparent; border: 1px solid #c98b5d; }
 .card .tag-sold { color: var(--muted); background: transparent; border: 1px solid var(--line); }
 

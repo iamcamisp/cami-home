@@ -79,14 +79,15 @@
           "store": "Cida Lima",
           "status": "owned",
           "date_bought": "2026-05-27",
-          "image_url": "images/cida-lima-cabeca-m.jpg"
+          "image_url": "images/cida-lima-cabeca.png"
         },
         {
           "name": "Cida Lima ceramic head (P)",
           "url": "https://www.google.com/search?q=Cida+Lima+cabe%C3%A7a+cer%C3%A2mica+P",
           "store": "Cida Lima",
           "status": "owned",
-          "date_bought": "2026-05-27"
+          "date_bought": "2026-05-27",
+          "image_url": "images/cida-lima-cabeca.png"
         }
       ]
     },

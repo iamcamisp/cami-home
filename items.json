@@ -88,7 +88,7 @@
           "store": "Cida Lima",
           "status": "owned",
           "price": 260,
-          "currency": "BRL"
+          "currency": "BRL",
           "date_bought": "2023-05-26",
           "image_url": "images/cida-lima-cabeca.webp"
         },
@@ -98,7 +98,7 @@
           "store": "Cida Lima",
           "status": "owned",
           "price": 135,
-          "currency": "BRL"
+          "currency": "BRL",
           "date_bought": "2023-05-26",
           "image_url": "images/cida-lima-cabeca.webp"
         },

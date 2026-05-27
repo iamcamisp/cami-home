@@ -24,13 +24,40 @@ function statusOf(it) {
 }
 
 function setupFilters() {
-  const sel = document.getElementById("status-filter");
-  if (!sel) return;
-  sel.addEventListener("change", () => {
-    STATUS_FILTER = sel.value;
-    render();
-    setupScrollSpy();
-  });
+  const status = document.getElementById("status-filter");
+  if (status) {
+    status.addEventListener("change", () => {
+      STATUS_FILTER = status.value;
+      render();
+      setupScrollSpy();
+    });
+  }
+  const cat = document.getElementById("category-filter");
+  if (cat) {
+    cat.addEventListener("change", () => {
+      CATEGORY_FILTER = cat.value;
+      render();
+      setupScrollSpy();
+    });
+  }
+  populateCategoryFilter();
+}
+
+function populateCategoryFilter() {
+  const sel = document.getElementById("category-filter");
+  if (!sel || !DATA) return;
+  const seen = new Set();
+  for (const r of DATA.rooms || []) {
+    for (const it of (r.items || [])) {
+      if (it.category) seen.add(it.category);
+    }
+  }
+  const opts = [`<option value="all" ${CATEGORY_FILTER === "all" ? "selected" : ""}>All</option>`];
+  for (const c of Array.from(seen).sort()) {
+    const label = CATEGORY_LABEL[c] || (c.charAt(0).toUpperCase() + c.slice(1));
+    opts.push(`<option value="${c}" ${CATEGORY_FILTER === c ? "selected" : ""}>${label}</option>`);
+  }
+  sel.innerHTML = opts.join("");
 }
 
 const STATUS_ORDER = { owned: 1, planned: 2, "to-sell": 3, sold: 4 };
@@ -46,6 +73,7 @@ function render() {
     ...r,
     items: (r.items || [])
       .filter((it) => STATUS_FILTER === "all" || statusOf(it) === STATUS_FILTER)
+      .filter((it) => CATEGORY_FILTER === "all" || it.category === CATEGORY_FILTER)
       .slice()
       .sort((a, b) => {
         const sa = STATUS_ORDER[statusOf(a)] || 99;

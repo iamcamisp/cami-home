@@ -14,7 +14,8 @@
           "image_url": "images/solstice-buffet.jpg",
           "price": 299.9,
           "currency": "CHF",
-          "brand": "Maisons du Monde"
+          "brand": "Maisons du Monde",
+          "category": "furniture"
         },
         {
           "name": "Decorative ladder (oak)",
@@ -24,7 +25,8 @@
           "image_url": "images/oak-ladder.jpg",
           "price": 49.95,
           "currency": "CHF",
-          "brand": "Maisons du Monde"
+          "brand": "Maisons du Monde",
+          "category": "decor"
         },
         {
           "name": "Kadey hand-tufted rug (wool, organic shape)",
@@ -34,7 +36,8 @@
           "image_url": "images/kadey-rug.jpg",
           "price": 549,
           "currency": "CHF",
-          "brand": "Westwing"
+          "brand": "Westwing",
+          "category": "decor"
         },
         {
           "name": "Wall Lamp Bar with Plug",
@@ -44,7 +47,8 @@
           "image_url": "images/hm-1105665002.jpg",
           "price": 239,
           "currency": "CHF",
-          "brand": "Houseof"
+          "brand": "Houseof",
+          "category": "lighting"
         },
         {
           "name": "EKENÄSET armchair (oak, Gunnared beige) × 2",
@@ -55,7 +59,8 @@
           "dimensions": "W 64 × D 81 × H 75 cm",
           "price": 498,
           "currency": "CHF",
-          "brand": "IKEA"
+          "brand": "IKEA",
+          "category": "furniture"
         },
         {
           "name": "Nest Hub (2nd gen)",
@@ -64,7 +69,8 @@
           "image_url": "images/nest-hub.avif",
           "price": 118.8,
           "currency": "CHF",
-          "brand": "Google"
+          "brand": "Google",
+          "category": "electronics"
         },
         {
           "name": "Era 300 (Black)",
@@ -73,7 +79,8 @@
           "image_url": "images/sonos-era-300.jpg",
           "price": 300.0,
           "currency": "CHF",
-          "brand": "Sonos"
+          "brand": "Sonos",
+          "category": "electronics"
         },
         {
           "name": "Wooden armchair with removable covers × 2",
@@ -82,7 +89,8 @@
           "price": 918,
           "currency": "CHF",
           "image_url": "images/zara-home-holzsessel.jpg",
-          "brand": "Zara Home"
+          "brand": "Zara Home",
+          "category": "furniture"
         },
         {
           "name": "Head (ceramic, M)",
@@ -92,7 +100,8 @@
           "currency": "BRL",
           "date_bought": "2023-05-26",
           "image_url": "images/cida-lima-cabeca.webp",
-          "brand": "Cida Lima"
+          "brand": "Cida Lima",
+          "category": "decor"
         },
         {
           "name": "Head (ceramic, PP)",
@@ -102,7 +111,8 @@
           "currency": "BRL",
           "date_bought": "2023-05-26",
           "image_url": "images/cida-lima-cabeca.webp",
-          "brand": "Cida Lima"
+          "brand": "Cida Lima",
+          "category": "decor"
         },
         {
           "name": "Abaporu decorative figure",
@@ -112,7 +122,8 @@
           "price": 292,
           "currency": "BRL",
           "image_url": "images/abaporu-medio.jpg",
-          "brand": "Westwing BR"
+          "brand": "Westwing BR",
+          "category": "decor"
         },
         {
           "name": "RINGSTA / SKAFTET floor lamp (white, brass) × 2",
@@ -120,14 +131,16 @@
           "brand": "IKEA",
           "status": "owned",
           "date_bought": "2026-05-27",
-          "image_url": "images/ringsta-skaftet-floor-lamp.png"
+          "image_url": "images/ringsta-skaftet-floor-lamp.png",
+          "category": "lighting"
         },
         {
           "name": "Solid wood stool (teak)",
           "url": "https://www.google.com/search?q=Solid+wood+stool+%28teak%29",
           "status": "owned",
           "date_bought": "2026-05-27",
-          "image_url": "images/teak-stool.jpg"
+          "image_url": "images/teak-stool.jpg",
+          "category": "furniture"
         }
       ]
     },
@@ -144,7 +157,8 @@
           "status": "owned",
           "price": 240,
           "currency": "CHF",
-          "brand": "IKEA"
+          "brand": "IKEA",
+          "category": "furniture"
         },
         {
           "name": "VÅGSTRANDA pocket sprung mattress (medium firm)",
@@ -155,7 +169,8 @@
           "status": "owned",
           "price": 269,
           "currency": "CHF",
-          "brand": "IKEA"
+          "brand": "IKEA",
+          "category": "furniture"
         },
         {
           "name": "VÅGSTRANDA pocket sprung mattress (firm)",
@@ -166,7 +181,8 @@
           "status": "owned",
           "price": 269,
           "currency": "CHF",
-          "brand": "IKEA"
+          "brand": "IKEA",
+          "category": "furniture"
         },
         {
           "name": "Petter wall-mounted nightstand (acacia) × 2",
@@ -176,7 +192,8 @@
           "image_url": "images/petter-nightstand.jpg",
           "price": 279.9,
           "currency": "EUR",
-          "brand": "Sklum"
+          "brand": "Sklum",
+          "category": "furniture"
         },
         {
           "name": "Agura bed",
@@ -186,7 +203,8 @@
           "price": 486.5,
           "currency": "CHF",
           "dimensions": "W 160 × L 200 cm",
-          "brand": "La Redoute"
+          "brand": "La Redoute",
+          "category": "furniture"
         },
         {
           "name": "Mi Smart Projector 2",
@@ -195,7 +213,8 @@
           "image_url": "images/xiaomi-projector-2.jpg",
           "price": 549.0,
           "currency": "CHF",
-          "brand": "Xiaomi"
+          "brand": "Xiaomi",
+          "category": "electronics"
         },
         {
           "name": "Nordmela 4-drawer dresser",
@@ -204,7 +223,8 @@
           "date_bought": "2026-05-27",
           "image_url": "images/nordmela-dresser.jpg",
           "dimensions": "W 159 × D 40 × H 50 cm",
-          "brand": "IKEA"
+          "brand": "IKEA",
+          "category": "furniture"
         }
       ]
     },
@@ -220,14 +240,16 @@
           "dimensions": "W 46 × D 50 × H 96 cm",
           "price": 1276,
           "currency": "CHF",
-          "brand": "Kave Home"
+          "brand": "Kave Home",
+          "category": "furniture"
         },
         {
           "name": "Mini stand mixer (red)",
           "url": "https://www.google.com/search?q=KitchenAid+Mini+stand+mixer+%28red%29",
           "status": "owned",
           "image_url": "images/kitchenaid-mini-red.jpg",
-          "brand": "KitchenAid"
+          "brand": "KitchenAid",
+          "category": "appliances"
         },
         {
           "name": "Franklin foldable bar stool (white) × 4",
@@ -236,7 +258,8 @@
           "image_url": "images/franklin-bar-stool.jpg",
           "brand": "IKEA",
           "price": 159.8,
-          "currency": "CHF"
+          "currency": "CHF",
+          "category": "furniture"
         }
       ]
     },
@@ -253,7 +276,8 @@
           "dimensions": "W 49 × D 43 × H 37 cm",
           "price": 49.95,
           "currency": "CHF",
-          "brand": "IKEA"
+          "brand": "IKEA",
+          "category": "lighting"
         },
         {
           "name": "Nest Audio",
@@ -263,7 +287,8 @@
           "image_url": "images/nest-audio.jpg",
           "price": 109.0,
           "currency": "CHF",
-          "brand": "Google"
+          "brand": "Google",
+          "category": "electronics"
         }
       ]
     },
@@ -280,7 +305,8 @@
           "dimensions": "W 202 × D 103 × H 88 cm (89 kg)",
           "price": 1499,
           "currency": "CHF",
-          "brand": "Maisons du Monde"
+          "brand": "Maisons du Monde",
+          "category": "furniture"
         },
         {
           "name": "MALMO desk with 2 drawers (solid acacia wood)",
@@ -291,7 +317,8 @@
           "image_url": "images/malmo-desk.jpg",
           "price": 383.95,
           "currency": "CHF",
-          "brand": "Maisons du Monde"
+          "brand": "Maisons du Monde",
+          "category": "furniture"
         },
         {
           "name": "Dottore office swivel chair (black)",
@@ -302,7 +329,8 @@
           "dimensions": "W 78 × D 44 × H 50 cm",
           "price": 479,
           "currency": "CHF",
-          "brand": "KARE Design"
+          "brand": "KARE Design",
+          "category": "furniture"
         },
         {
           "name": "Wind Calm ceiling fan (natural wood)",
@@ -311,7 +339,8 @@
           "image_url": "https://cdn.create-store.com/de/5183288/wind-calm-natural-wood.jpg",
           "price": 129.95,
           "currency": "CHF",
-          "brand": "Create"
+          "brand": "Create",
+          "category": "electronics"
         },
         {
           "name": "CDP-S110BK digital piano (88 weighted keys, black)",
@@ -320,7 +349,8 @@
           "image_url": "https://static01.galaxus.com/productimages/4/9/1/2/5/8/8/7/5/1/4/2/6/2/4/0/9/4/2/fc8aae3b-0747-4bc8-bd15-6e822df185c0_cropped.jpg_720.jpeg",
           "price": 270,
           "currency": "CHF",
-          "brand": "Casio"
+          "brand": "Casio",
+          "category": "electronics"
         },
         {
           "name": "Nest Audio",
@@ -330,7 +360,8 @@
           "image_url": "images/nest-audio.jpg",
           "price": 79.9,
           "currency": "CHF",
-          "brand": "Google"
+          "brand": "Google",
+          "category": "electronics"
         },
         {
           "name": "Trolley (burgundy)",
@@ -341,7 +372,8 @@
           "currency": "CHF",
           "date_bought": "2026-05-27",
           "dimensions": "W 42 × D 38 × H 85 cm",
-          "brand": "House Doctor"
+          "brand": "House Doctor",
+          "category": "furniture"
         },
         {
           "name": "Round table lamp (alabaster)",
@@ -351,7 +383,8 @@
           "image_url": "images/zara-semioval-alabaster-lamp.jpg",
           "price": 60,
           "currency": "EUR",
-          "brand": "Zara Home"
+          "brand": "Zara Home",
+          "category": "lighting"
         },
         {
           "name": "Semioval table lamp (alabaster)",
@@ -361,7 +394,8 @@
           "image_url": "images/zara-round-alabaster-lamp.jpg",
           "price": 50,
           "currency": "EUR",
-          "brand": "Zara Home"
+          "brand": "Zara Home",
+          "category": "lighting"
         }
       ]
     },
@@ -377,7 +411,8 @@
           "status": "owned",
           "price": 83.3,
           "currency": "CHF",
-          "brand": "DEPOT"
+          "brand": "DEPOT",
+          "category": "furniture"
         },
         {
           "name": "Original Outdoor bean bag (red)",
@@ -387,7 +422,8 @@
           "image_url": "https://www.fatboy.com/dw/image/v2/BLBH_PRD/on/demandware.static/-/Sites-master-catalog/default/dw59df1a4f/assets/image/105299/fatboy-original-outdoor-red-1920x1280-packshot-01-105299.jpg?sw=1920&q=80&fmt=webp",
           "price": 339,
           "currency": "CHF",
-          "brand": "Fatboy"
+          "brand": "Fatboy",
+          "category": "furniture"
         },
         {
           "name": "Koda 12 gas pizza oven",
@@ -396,7 +432,8 @@
           "image_url": "images/ooni-koda-12.avif",
           "price": 499.0,
           "currency": "CHF",
-          "brand": "Ooni"
+          "brand": "Ooni",
+          "category": "appliances"
         }
       ]
     },
@@ -411,7 +448,8 @@
           "image_url": "images/wahoo-kickr-core.jpg",
           "price": 478,
           "currency": "CHF",
-          "brand": "Wahoo"
+          "brand": "Wahoo",
+          "category": "electronics"
         }
       ]
     }

@@ -264,6 +264,22 @@
           "url": "https://www.google.com/search?q=House+Doctor+Tolley+trolley+burgundy",
           "status": "planned",
           "image_url": "images/house-doctor-trolley.webp"
+        },
+        {
+          "name": "Zara Home round alabaster table lamp",
+          "url": "https://www.zarahome.com/ch/en/round-alabaster-table-lamp-l47127047",
+          "store": "Zara Home",
+          "status": "owned",
+          "date_bought": "2026-05-27",
+          "image_url": "images/zara-round-alabaster-lamp.jpg"
+        },
+        {
+          "name": "Zara Home semioval alabaster table lamp",
+          "url": "https://www.zarahome.com/ch/en/semioval-alabaster-table-lamp-l47128047",
+          "store": "Zara Home",
+          "status": "owned",
+          "date_bought": "2026-05-27",
+          "image_url": "images/zara-semioval-alabaster-lamp.jpg"
         }
       ]
     },

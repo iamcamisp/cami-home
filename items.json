@@ -50,7 +50,7 @@
           "name": "EKENÄSET armchair (oak, Gunnared beige) × 2",
           "url": "https://www.ikea.com/ch/en/p/ekenaeset-armchair-oak-gunnared-beige-60506898/",
           "store": "IKEA",
-          "status": "owned",
+          "status": "to-sell",
           "date_bought": "2026-05-27",
           "image_url": "images/ekenaset-armchair.jpg",
           "dimensions": "64 × 81 × 75 cm",
@@ -211,6 +211,13 @@
           "url": "https://www.google.com/search?q=KitchenAid+Mini+stand+mixer+%28red%29",
           "status": "owned",
           "image_url": "images/kitchenaid-mini-red.jpg"
+        },
+        {
+          "name": "IKEA Franklin foldable bar stool (white, × 4)",
+          "url": "https://www.ikea.com/ch/de/p/franklin-barhocker-zusammenklappbar-arbeitsplattenhoehe-weiss-weiss-70404875/",
+          "store": "IKEA",
+          "status": "to-sell",
+          "image_url": "images/franklin-bar-stool.jpg"
         }
       ]
     },

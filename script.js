@@ -24,15 +24,12 @@ function statusOf(it) {
 }
 
 function setupFilters() {
-  document.querySelectorAll(".filters button").forEach((b) => {
-    b.addEventListener("click", () => {
-      STATUS_FILTER = b.dataset.status;
-      document.querySelectorAll(".filters button").forEach((x) =>
-        x.classList.toggle("active", x === b)
-      );
-      render();
-      setupScrollSpy();
-    });
+  const sel = document.getElementById("status-filter");
+  if (!sel) return;
+  sel.addEventListener("change", () => {
+    STATUS_FILTER = sel.value;
+    render();
+    setupScrollSpy();
   });
 }
 

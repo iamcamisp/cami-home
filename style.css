@@ -236,39 +236,43 @@ main {
 .card.status-sold .meta { color: var(--muted); }
 .card.status-sold .image img { opacity: 0.7; }
 
-/* Filter pills */
+/* Status filter dropdown */
 .filters {
   max-width: 1240px;
-  margin: 4px auto 0;
-  padding: 6px 40px 0;
+  margin: 8px auto 0;
+  padding: 8px 40px 0;
   display: flex;
-  gap: 6px;
-  flex-wrap: wrap;
-}
-
-.filters button {
-  appearance: none;
-  border: 1px solid var(--line);
-  background: transparent;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.85rem;
   color: var(--muted);
-  font: inherit;
-  font-size: 0.78rem;
+}
+
+.filters label {
   font-weight: 500;
-  letter-spacing: 0.02em;
-  padding: 7px 14px;
-  border-radius: 999px;
-  cursor: pointer;
-  transition: background 0.15s, color 0.15s, border-color 0.15s;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.7rem;
 }
 
-.filters button:hover {
+.filters select {
+  font: inherit;
   color: var(--ink);
-  border-color: var(--ink);
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 7px 28px 7px 14px;
+  cursor: pointer;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath fill='%231c1c1c' d='M0 0l5 6 5-6z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  font-weight: 500;
+  font-size: 0.85rem;
 }
 
-.filters button.active {
-  color: var(--bg);
-  background: var(--ink);
+.filters select:hover {
   border-color: var(--ink);
 }
 
@@ -323,8 +327,8 @@ footer {
   .site-header { padding: 56px 20px 28px; }
   .site-header h1 { font-size: 2.25rem; }
   .room-nav-inner { padding: 12px 20px; }
-  .filters { padding: 4px 16px 0; gap: 4px; }
-  .filters button { font-size: 0.72rem; padding: 6px 11px; }
+  .filters { padding: 8px 16px 0; }
+  .filters select { font-size: 0.8rem; padding: 6px 26px 6px 12px; }
   main { padding: 24px 16px 64px; }
   .room { padding-bottom: 48px; }
   .grid { gap: 10px; }

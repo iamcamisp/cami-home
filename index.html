@@ -20,12 +20,15 @@
     <div class="room-nav-inner"></div>
   </nav>
 
-  <div class="filters" role="tablist" aria-label="Status filter">
-    <button type="button" data-status="all" class="active">All</button>
-    <button type="button" data-status="planned">Planned</button>
-    <button type="button" data-status="owned">Owned</button>
-    <button type="button" data-status="to-sell">To sell</button>
-    <button type="button" data-status="sold">Sold</button>
+  <div class="filters">
+    <label for="status-filter">Status</label>
+    <select id="status-filter">
+      <option value="all" selected>All</option>
+      <option value="planned">Planned</option>
+      <option value="owned">Owned</option>
+      <option value="to-sell">To sell</option>
+      <option value="sold">Sold</option>
+    </select>
   </div>
 
   <main id="rooms" aria-busy="true">

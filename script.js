@@ -83,10 +83,10 @@ function renderCard(it) {
 
   const store = it.store ? `<div class="store">${escape(it.store)}</div>` : "";
   let detail = "";
-  if (status === "owned" || status === "sold") {
+  if (status === "owned" || status === "sold" || status === "to-sell") {
     const parts = [];
     if (it.price_chf != null) parts.push(fmtCHF(it.price_chf));
-    if (status === "owned" && it.date_bought) parts.push(fmtDate(it.date_bought));
+    if ((status === "owned" || status === "to-sell") && it.date_bought) parts.push(fmtDate(it.date_bought));
     if (status === "sold" && it.date_sold) parts.push(`sold ${fmtDate(it.date_sold)}`);
     const line = parts.length
       ? `<div class="meta">${parts.map(escape).join(" · ")}</div>`
@@ -98,7 +98,10 @@ function renderCard(it) {
   } else if (it.dimensions) {
     detail = `<div class="dims">${escape(it.dimensions)}</div>`;
   }
-  const tagText = status === "owned" ? "Owned" : status === "sold" ? "Sold" : "";
+  const tagText =
+    status === "owned" ? "Owned" :
+    status === "to-sell" ? "To sell" :
+    status === "sold" ? "Sold" : "";
   const tag = tagText ? `<div class="status-tag tag-${status}">${tagText}</div>` : "";
 
   return `

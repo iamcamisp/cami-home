@@ -152,7 +152,8 @@
           "url": "https://www.google.com/search?q=IKEA+Nordmela+4-drawer+dresser",
           "store": "IKEA",
           "status": "owned",
-          "date_bought": "2026-05-27"
+          "date_bought": "2026-05-27",
+          "image_url": "images/nordmela-dresser.jpg"
         }
       ]
     },
@@ -197,7 +198,8 @@
           "store": "Google",
           "status": "owned",
           "date_bought": "2026-05-27",
-          "price_chf": 109.0
+          "price_chf": 109.0,
+          "image_url": "images/nest-audio.jpg"
         }
       ]
     },
@@ -257,7 +259,8 @@
           "store": "Google",
           "status": "owned",
           "date_bought": "2026-05-27",
-          "price_chf": 79.9
+          "price_chf": 79.9,
+          "image_url": "images/nest-audio.jpg"
         },
         {
           "name": "House Doctor Tolley trolley (burgundy)",

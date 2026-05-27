@@ -89,7 +89,9 @@ function renderCard(it) {
     ? `<div class="image"><img src="${escapeAttr(it.image_url)}" alt="${escapeAttr(it.name || "")}" loading="lazy" onerror="this.parentElement.classList.add('broken')"/></div>`
     : `<div class="image broken"></div>`;
 
-  const store = it.store ? `<div class="store">${escape(it.store)}</div>` : "";
+  // Prefer `brand`; fall back to legacy `store`
+  const brandText = it.brand || it.store || "";
+  const brand = brandText ? `<div class="brand">${escape(brandText)}</div>` : "";
   const parts = [];
   // Support both new schema (price + currency) and legacy (price_chf)
   const priceVal = (typeof it.price === "number") ? it.price : it.price_chf;
@@ -117,7 +119,7 @@ function renderCard(it) {
       <div class="content">
         ${tag}
         <div class="name">${escape(it.name || "")}</div>
-        ${store}
+        ${brand}
         ${detail}
       </div>
       <div class="action"><span class="view">View →</span></div>

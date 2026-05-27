@@ -145,7 +145,8 @@
           "store": "KARE Design",
           "status": "owned",
           "price_chf": 479,
-          "date_bought": "2026-05-27"
+          "date_bought": "2026-05-27",
+          "image_url": "images/dottore-chair.jpg"
         },
         {
           "name": "Casio CDP-S110BK digital piano (88 weighted keys, black)",

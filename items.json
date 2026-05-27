@@ -9,7 +9,7 @@
           "name": "SOLSTICE buffet with 2 doors (rattan weave)",
           "url": "https://www.google.com/search?q=SOLSTICE+buffet+with+2+doors+%28rattan+weave%29",
           "date_bought": "2023-02-05",
-          "dimensions": "B 100 × H 70 × T 45 cm",
+          "dimensions": "W 100 × D 45 × H 70 cm",
           "status": "owned",
           "image_url": "images/solstice-buffet.jpg",
           "price": 299.9,
@@ -52,7 +52,7 @@
           "status": "to-sell",
           "date_bought": "2026-05-27",
           "image_url": "images/ekenaset-armchair.jpg",
-          "dimensions": "64 × 81 × 75 cm",
+          "dimensions": "W 64 × D 81 × H 75 cm",
           "price": 249,
           "currency": "CHF",
           "brand": "IKEA"
@@ -124,7 +124,7 @@
           "name": "LEIRSUND slatted bed base (2)",
           "url": "https://www.google.com/search?q=IKEA+LEIRSUND+slatted+bed+base+%282%29",
           "date_bought": "2026-04-24",
-          "dimensions": "80 × 200 cm (each)",
+          "dimensions": "W 80 × L 200 cm (each)",
           "image_url": "images/leirsund-bed-base.jpg",
           "status": "owned",
           "price": 240,
@@ -135,7 +135,7 @@
           "name": "VÅGSTRANDA pocket sprung mattress (medium firm)",
           "url": "https://www.google.com/search?q=IKEA+V%C3%85GSTRANDA+pocket+sprung+mattress+%28medium+firm%29",
           "date_bought": "2026-04-12",
-          "dimensions": "80 × 200 cm",
+          "dimensions": "W 80 × L 200 cm",
           "image_url": "images/vagstranda-mattress-medium.jpg",
           "status": "owned",
           "price": 269,
@@ -146,7 +146,7 @@
           "name": "VÅGSTRANDA pocket sprung mattress (firm)",
           "url": "https://www.google.com/search?q=IKEA+V%C3%85GSTRANDA+pocket+sprung+mattress+%28firm%29",
           "date_bought": "2026-04-12",
-          "dimensions": "80 × 200 cm",
+          "dimensions": "W 80 × L 200 cm",
           "image_url": "images/vagstranda-mattress-firm.jpg",
           "status": "owned",
           "price": 269,
@@ -170,7 +170,7 @@
           "image_url": "images/agura-bed.avif",
           "price": 486.5,
           "currency": "CHF",
-          "dimensions": "160 × 200 cm",
+          "dimensions": "W 160 × L 200 cm",
           "brand": "La Redoute"
         },
         {
@@ -188,7 +188,7 @@
           "status": "owned",
           "date_bought": "2026-05-27",
           "image_url": "images/nordmela-dresser.jpg",
-          "dimensions": "159 × 40 × 50 cm",
+          "dimensions": "W 159 × D 40 × H 50 cm",
           "brand": "IKEA"
         }
       ]
@@ -202,7 +202,7 @@
           "url": "https://www.google.com/search?q=Helda+stool+65+cm+%28beige+chenille+%2B+solid+oak%29",
           "status": "planned",
           "image_url": "https://d.media.kavehome.com/image/upload/w_900,f_auto,c_fill,g_auto,ar_0.8,dpr_2/v1727859217/products/C0600041MY12H_1V01.jpg",
-          "dimensions": "46 × 50 × 96 cm",
+          "dimensions": "W 46 × D 50 × H 96 cm",
           "price": 1276,
           "currency": "CHF",
           "brand": "Kave Home"
@@ -233,7 +233,7 @@
           "date_bought": "2025-09-12",
           "image_url": "images/kranbalk-ceiling-lamp.jpg",
           "status": "owned",
-          "dimensions": "49 × 43 × 37 cm",
+          "dimensions": "W 49 × D 43 × H 37 cm",
           "price": 49.95,
           "currency": "CHF",
           "brand": "IKEA"
@@ -260,7 +260,7 @@
           "date_bought": "2025-08-28",
           "image_url": "images/romy-sofa.jpg",
           "status": "owned",
-          "dimensions": "L 202 × T 103 × H 88 cm (89 kg)",
+          "dimensions": "W 202 × D 103 × H 88 cm (89 kg)",
           "price": 1499,
           "currency": "CHF",
           "brand": "Maisons du Monde"
@@ -269,7 +269,7 @@
           "name": "MALMO desk with 2 drawers (solid acacia wood)",
           "url": "https://www.google.com/search?q=MALMO+desk+with+2+drawers+%28solid+acacia+wood%29",
           "date_bought": "2024-08-31",
-          "dimensions": "B 125 × H 62 × T 29 cm | 36kg",
+          "dimensions": "W 125 × D 29 × H 62 cm (36 kg)",
           "status": "owned",
           "image_url": "images/malmo-desk.jpg",
           "price": 383.95,
@@ -282,7 +282,7 @@
           "status": "owned",
           "date_bought": "2026-05-27",
           "image_url": "images/dottore-chair.jpg",
-          "dimensions": "78 × 44 × 50 cm",
+          "dimensions": "W 78 × D 44 × H 50 cm",
           "price": 479,
           "currency": "CHF",
           "brand": "KARE Design"
@@ -323,7 +323,7 @@
           "price": 130,
           "currency": "CHF",
           "date_bought": "2026-05-27",
-          "dimensions": "42 × 38 × 85 cm",
+          "dimensions": "W 42 × D 38 × H 85 cm",
           "brand": "House Doctor"
         },
         {
@@ -356,7 +356,7 @@
           "name": "Jute pouf Clemens (natural)",
           "url": "https://www.google.com/search?q=Jute+pouf+Clemens+%28natural%29",
           "date_bought": "2022-02-17",
-          "dimensions": "B 60 × H 35 × T 60 cm",
+          "dimensions": "W 60 × D 60 × H 35 cm",
           "status": "owned",
           "price": 83.3,
           "currency": "CHF",
@@ -365,7 +365,7 @@
         {
           "name": "Original Outdoor bean bag (red)",
           "url": "https://www.google.com/search?q=Fatboy+Original+Outdoor+bean+bag+%28red%29",
-          "dimensions": "134 × 180 cm",
+          "dimensions": "W 134 × L 180 cm",
           "status": "planned",
           "image_url": "https://www.fatboy.com/dw/image/v2/BLBH_PRD/on/demandware.static/-/Sites-master-catalog/default/dw59df1a4f/assets/image/105299/fatboy-original-outdoor-red-1920x1280-packshot-01-105299.jpg?sw=1920&q=80&fmt=webp",
           "price": 339,

@@ -205,6 +205,47 @@ main {
   font-weight: 500;
 }
 
+.card .owned-tag {
+  display: inline-block;
+  align-self: flex-start;
+  font-size: 0.66rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--bg);
+  background: var(--ink);
+  padding: 4px 8px;
+  border-radius: 999px;
+  font-weight: 500;
+  margin-top: -2px;
+}
+
+.card .meta {
+  font-size: 0.82rem;
+  color: var(--ink);
+  font-weight: 500;
+  letter-spacing: -0.005em;
+  margin-top: 2px;
+}
+
+.card .dims {
+  font-size: 0.74rem;
+  color: var(--muted);
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+.card.owned .image {
+  position: relative;
+}
+
+.card.owned .image::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 70%, rgba(0, 0, 0, 0.04));
+  pointer-events: none;
+}
+
 .loading {
   color: var(--muted);
   text-align: center;

@@ -5,6 +5,7 @@
     { "slug": "bedroom", "name": "Bedroom", "items": [] },
     { "slug": "kitchen", "name": "Kitchen", "items": [] },
     { "slug": "bathroom", "name": "Bathroom", "items": [] },
-    { "slug": "office", "name": "Office", "items": [] }
+    { "slug": "office", "name": "Office", "items": [] },
+    { "slug": "outdoor", "name": "Outdoor", "items": [] }
   ]
 }

@@ -48,14 +48,47 @@ function renderCard(it) {
   const image = it.image_url
     ? `<div class="image"><img src="${escapeAttr(it.image_url)}" alt="${escapeAttr(it.name || "")}" loading="lazy" onerror="this.parentElement.classList.add('broken')"/></div>`
     : `<div class="image broken"></div>`;
-  const store = it.store ? `<div class="store">${escape(it.store)}</div>` : "";
+
+  let meta = "";
+  if (it.bought) {
+    const parts = [];
+    if (it.price_chf != null) parts.push(fmtCHF(it.price_chf));
+    if (it.date_bought) parts.push(fmtDate(it.date_bought));
+    const line1 = parts.length
+      ? `<div class="meta">${parts.map(escape).join(" · ")}</div>`
+      : "";
+    const dims = it.dimensions
+      ? `<div class="dims">${escape(it.dimensions)}</div>`
+      : "";
+    meta = `<div class="owned-tag">Owned</div>${line1}${dims}`;
+  } else if (it.store) {
+    meta = `<div class="store">${escape(it.store)}</div>`;
+  }
+
   return `
-    <a class="card" href="${escapeAttr(url)}" target="_blank" rel="noopener">
+    <a class="card${it.bought ? " owned" : ""}" href="${escapeAttr(url)}" target="_blank" rel="noopener">
       ${image}
       <div class="name">${escape(it.name || "")}</div>
-      ${store}
+      ${meta}
     </a>
   `;
+}
+
+function fmtCHF(n) {
+  return new Intl.NumberFormat("de-CH", {
+    style: "currency",
+    currency: "CHF",
+    maximumFractionDigits: 0,
+  }).format(n);
+}
+
+function fmtDate(iso) {
+  if (!iso) return "";
+  return new Date(iso).toLocaleDateString("en-GB", {
+    day: "numeric",
+    month: "short",
+    year: "numeric",
+  });
 }
 
 function setupScrollSpy() {

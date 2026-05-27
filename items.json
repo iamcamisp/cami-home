@@ -76,11 +76,12 @@
         },
         {
           "name": "Zara Home wooden armchair with removable covers × 2",
-          "url": "https://www.google.com/search?q=Zara+Home+Holzsessel+mit+abnehmbaren+Bez%C3%BCgen",
+          "url": "https://www.zarahome.com/ch/holzsessel-mit-abnehmbaren-bezugen-l48311073",
           "store": "Zara Home",
           "status": "planned",
           "price": 399.0,
-          "currency": "CHF"
+          "currency": "CHF",
+          "image_url": "images/zara-home-holzsessel.jpg"
         },
         {
           "name": "Ceramic head (M)",

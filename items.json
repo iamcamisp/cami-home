@@ -141,6 +141,18 @@
           "date_bought": "2026-05-27",
           "image_url": "images/teak-stool.jpg",
           "category": "furniture"
+        },
+        {
+          "name": "Eneas coffee table (acacia, steel)",
+          "url": "https://www.zen-zone.ch/products/couchtisch-eneas-baum",
+          "brand": "Bizzotto",
+          "category": "furniture",
+          "status": "owned",
+          "date_bought": "2026-05-27",
+          "price": 500,
+          "currency": "CHF",
+          "dimensions": "W 90 × D 90 × H 30 cm",
+          "image_url": "images/eneas-coffee-table.webp"
         }
       ]
     },

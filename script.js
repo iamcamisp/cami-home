@@ -49,27 +49,32 @@ function renderCard(it) {
     ? `<div class="image"><img src="${escapeAttr(it.image_url)}" alt="${escapeAttr(it.name || "")}" loading="lazy" onerror="this.parentElement.classList.add('broken')"/></div>`
     : `<div class="image broken"></div>`;
 
-  let meta = "";
+  const store = it.store ? `<div class="store">${escape(it.store)}</div>` : "";
+  let detail = "";
   if (it.bought) {
     const parts = [];
     if (it.price_chf != null) parts.push(fmtCHF(it.price_chf));
     if (it.date_bought) parts.push(fmtDate(it.date_bought));
-    const line1 = parts.length
+    const line = parts.length
       ? `<div class="meta">${parts.map(escape).join(" · ")}</div>`
       : "";
     const dims = it.dimensions
       ? `<div class="dims">${escape(it.dimensions)}</div>`
       : "";
-    meta = `<div class="owned-tag">Owned</div>${line1}${dims}`;
-  } else if (it.store) {
-    meta = `<div class="store">${escape(it.store)}</div>`;
+    detail = `${line}${dims}`;
   }
+  const ownedTag = it.bought ? `<div class="owned-tag">Owned</div>` : "";
 
   return `
     <a class="card${it.bought ? " owned" : ""}" href="${escapeAttr(url)}" target="_blank" rel="noopener">
       ${image}
-      <div class="name">${escape(it.name || "")}</div>
-      ${meta}
+      <div class="content">
+        ${ownedTag}
+        <div class="name">${escape(it.name || "")}</div>
+        ${store}
+        ${detail}
+      </div>
+      <div class="action"><span class="view">View →</span></div>
     </a>
   `;
 }

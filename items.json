@@ -89,7 +89,14 @@
     {
       "slug": "kitchen",
       "name": "Kitchen",
-      "items": []
+      "items": [
+        {
+          "name": "Helda stool 65 cm (beige chenille + solid oak)",
+          "url": "https://kavehome.com/ch/de/p/helda-shocker-aus-beiger-chenille-und-massivem-eichenholz-fsc-mix-credit-65-cm",
+          "store": "Kave Home",
+          "status": "planned"
+        }
+      ]
     },
     {
       "slug": "bathroom",
@@ -113,7 +120,15 @@
     {
       "slug": "outdoor",
       "name": "Outdoor",
-      "items": []
+      "items": [
+        {
+          "name": "Fatboy Original Outdoor bean bag (red)",
+          "url": "https://www.connox.ch/kategorien/moebel/sitzmoebel/sitzsaecke/fatboy-sitzsack-original-outdoor.html",
+          "store": "Fatboy",
+          "dimensions": "134 × 180 cm",
+          "status": "planned"
+        }
+      ]
     }
   ]
 }

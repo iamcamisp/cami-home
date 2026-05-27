@@ -1,0 +1,10 @@
+{
+  "owner": "Cami",
+  "rooms": [
+    { "slug": "living-room", "name": "Living Room", "items": [] },
+    { "slug": "bedroom", "name": "Bedroom", "items": [] },
+    { "slug": "kitchen", "name": "Kitchen", "items": [] },
+    { "slug": "bathroom", "name": "Bathroom", "items": [] },
+    { "slug": "office", "name": "Office", "items": [] }
+  ]
+}

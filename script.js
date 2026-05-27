@@ -100,7 +100,7 @@ function renderCard(it) {
   const dims = it.dimensions
     ? `<div class="dims">${escape(it.dimensions)}</div>`
     : "";
-  const detail = `${line}${dims}`;
+  const detail = `${dims}${line}`;
   const tagText =
     status === "owned" ? "Owned" :
     status === "planned" ? "Planned" :

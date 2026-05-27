@@ -39,6 +39,14 @@
           "status": "owned",
           "date_bought": "2026-05-27",
           "image_url": "images/hm-1105665002.jpg"
+        },
+        {
+          "name": "IKEA EKENÄSET armchair (oak, Gunnared beige) × 2",
+          "url": "https://www.ikea.com/ch/en/p/ekenaeset-armchair-oak-gunnared-beige-60506898/",
+          "store": "IKEA",
+          "status": "owned",
+          "date_bought": "2026-05-27",
+          "image_url": "images/ekenaset-armchair.jpg"
         }
       ]
     },

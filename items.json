@@ -121,6 +121,13 @@
           "status": "owned",
           "date_bought": "2026-05-27",
           "image_url": "images/ringsta-skaftet-floor-lamp.png"
+        },
+        {
+          "name": "Solid wood stool (teak)",
+          "url": "https://www.google.com/search?q=Solid+wood+stool+%28teak%29",
+          "status": "owned",
+          "date_bought": "2026-05-27",
+          "image_url": "images/teak-stool.jpg"
         }
       ]
     },

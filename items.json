@@ -131,7 +131,7 @@
           "brand": "IKEA",
           "status": "owned",
           "date_bought": "2026-05-27",
-          "image_url": "images/ringsta-skaftet-floor-lamp.png",
+          "image_url": "images/ringsta-skaftet-floor-lamp.jpg",
           "category": "lighting"
         },
         {
@@ -305,6 +305,7 @@
           "name": "Mini stand mixer (red)",
           "url": "https://www.google.com/search?q=KitchenAid+Mini+stand+mixer+%28red%29",
           "status": "owned",
+          "date_bought": "2025-10-14",
           "image_url": "images/kitchenaid-mini-red.jpg",
           "price": 319.97,
           "currency": "EUR",

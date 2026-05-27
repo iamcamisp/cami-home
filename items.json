@@ -129,13 +129,15 @@
           "url": "https://www.google.com/search?q=Petter+wall-mounted+nightstand+%28acacia+wood%29",
           "store": "Sklum",
           "status": "owned",
-          "date_bought": "2026-05-27"
+          "date_bought": "2026-05-27",
+          "image_url": "images/petter-nightstand.jpg"
         },
         {
           "name": "Agura bed 160 × 200",
           "url": "https://www.google.com/search?q=Agura+bed+160+%C3%97+200",
           "status": "planned",
-          "price_chf": 885.0
+          "price_chf": 885.0,
+          "image_url": "images/agura-bed.avif"
         },
         {
           "name": "Xiaomi Mi Smart Projector 2",
@@ -170,7 +172,8 @@
         {
           "name": "KitchenAid Mini stand mixer (red)",
           "url": "https://www.google.com/search?q=KitchenAid+Mini+stand+mixer+%28red%29",
-          "status": "planned"
+          "status": "planned",
+          "image_url": "images/kitchenaid-mini-red.jpg"
         }
       ]
     },
@@ -209,7 +212,8 @@
           "price_chf": 1499,
           "date_bought": "2025-08-28",
           "image_url": "images/romy-sofa.jpg",
-          "status": "owned"
+          "status": "owned",
+          "dimensions": "L 202 × T 103 × H 88 cm (89 kg)"
         },
         {
           "name": "MALMO desk with 2 drawers (solid acacia wood)",
@@ -256,9 +260,10 @@
           "price_chf": 79.9
         },
         {
-          "name": "House Doctor Tolley stool (burgundy)",
-          "url": "https://www.google.com/search?q=House+Doctor+Tolley+stool+%28burgundy%29",
-          "status": "planned"
+          "name": "House Doctor Tolley trolley (burgundy)",
+          "url": "https://www.google.com/search?q=House+Doctor+Tolley+trolley+burgundy",
+          "status": "planned",
+          "image_url": "images/house-doctor-trolley.webp"
         }
       ]
     },
@@ -285,10 +290,10 @@
           "image_url": "https://www.fatboy.com/dw/image/v2/BLBH_PRD/on/demandware.static/-/Sites-master-catalog/default/dw59df1a4f/assets/image/105299/fatboy-original-outdoor-red-1920x1280-packshot-01-105299.jpg?sw=1920&q=80&fmt=webp"
         },
         {
-          "name": "Ooni pizza oven (small)",
-          "url": "https://www.google.com/search?q=Ooni+pizza+oven+%28small%29",
+          "name": "Ooni Koda 12 gas pizza oven",
+          "url": "https://www.google.com/search?q=Ooni+Koda+12+gas+pizza+oven",
           "status": "planned",
-          "image_url": "images/ooni-pizza-oven.jpg",
+          "image_url": "images/ooni-koda-12.avif",
           "price_chf": 499.0
         }
       ]
@@ -298,10 +303,10 @@
       "name": "Other",
       "items": [
         {
-          "name": "Wahoo Kickr (smart bike trainer)",
-          "url": "https://www.google.com/search?q=Wahoo+Kickr+%28smart+bike+trainer%29",
+          "name": "Wahoo Kickr Core (smart bike trainer)",
+          "url": "https://www.google.com/search?q=Wahoo+Kickr+Core+smart+bike+trainer",
           "status": "planned",
-          "image_url": "images/wahoo-kickr.jpg",
+          "image_url": "images/wahoo-kickr-core.jpg",
           "price_chf": 869.0
         }
       ]

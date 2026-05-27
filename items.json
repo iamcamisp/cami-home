@@ -239,6 +239,17 @@
           "dimensions": "W 159 × D 40 × H 50 cm",
           "brand": "IKEA",
           "category": "furniture"
+        },
+        {
+          "name": "Orilamp table lamp (paper)",
+          "url": "https://www.google.com/search?q=Figliving+Orilamp+paper+table+lamp",
+          "brand": "Figliving",
+          "category": "lighting",
+          "status": "owned",
+          "date_bought": "2026-01-16",
+          "price": 48,
+          "currency": "EUR",
+          "image_url": "images/orilamp.png"
         }
       ]
     },

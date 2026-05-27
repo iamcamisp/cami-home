@@ -9,69 +9,77 @@
           "name": "SOLSTICE buffet with 2 doors (rattan weave)",
           "url": "https://www.google.com/search?q=SOLSTICE+buffet+with+2+doors+%28rattan+weave%29",
           "store": "Maisons du Monde",
-          "price_chf": 299.9,
           "date_bought": "2023-02-05",
           "dimensions": "B 100 × H 70 × T 45 cm",
           "status": "owned",
-          "image_url": "images/solstice-buffet.jpg"
+          "image_url": "images/solstice-buffet.jpg",
+          "price": 299.9,
+          "currency": "CHF"
         },
         {
           "name": "Decorative oak ladder",
           "url": "https://www.google.com/search?q=Decorative+oak+ladder",
           "store": "Maisons du Monde",
-          "price_chf": 49.95,
           "date_bought": "2023-02-05",
           "status": "sold",
-          "image_url": "images/oak-ladder.jpg"
+          "image_url": "images/oak-ladder.jpg",
+          "price": 49.95,
+          "currency": "CHF"
         },
         {
           "name": "Kadey hand-tufted wool rug (organic shape)",
           "url": "https://www.google.com/search?q=Kadey+hand-tufted+wool+rug+%28organic+shape%29",
           "store": "Westwing",
-          "price_chf": 549,
           "status": "owned",
           "date_bought": "2026-05-27",
-          "image_url": "images/kadey-rug.jpg"
+          "image_url": "images/kadey-rug.jpg",
+          "price": 549,
+          "currency": "CHF"
         },
         {
           "name": "Wall Lamp Bar with Plug",
           "url": "https://www.google.com/search?q=H%26M+Home+item+%281105665002%29",
           "store": "Houseof",
           "status": "owned",
-          "price_chf": 239,
           "date_bought": "2026-05-27",
-          "image_url": "images/hm-1105665002.jpg"
+          "image_url": "images/hm-1105665002.jpg",
+          "price": 239,
+          "currency": "CHF"
         },
         {
           "name": "EKENÄSET armchair (oak, Gunnared beige) × 2",
           "url": "https://www.ikea.com/ch/en/p/ekenaeset-armchair-oak-gunnared-beige-60506898/",
           "store": "IKEA",
           "status": "owned",
-          "price_chf": 249,
           "date_bought": "2026-05-27",
           "image_url": "images/ekenaset-armchair.jpg",
-          "dimensions": "64 × 81 × 75 cm"
+          "dimensions": "64 × 81 × 75 cm",
+          "price": 249,
+          "currency": "CHF"
         },
         {
           "name": "Google Nest Hub (2nd gen)",
           "url": "https://www.google.com/search?q=Google+Nest+Hub+%282nd+gen%29",
           "status": "planned",
           "image_url": "images/nest-hub.avif",
-          "price_chf": 118.8
+          "price": 118.8,
+          "currency": "CHF"
         },
         {
           "name": "Sonos Era 300 (black)",
           "url": "https://www.google.com/search?q=Sonos+Era+300+%28black%29",
           "status": "planned",
           "image_url": "images/sonos-era-300.jpg",
-          "price_chf": 300.0
+          "price": 300.0,
+          "currency": "CHF"
         },
         {
           "name": "Zara Home wooden armchair with removable covers × 2",
           "url": "https://www.google.com/search?q=Zara+Home+Holzsessel+mit+abnehmbaren+Bez%C3%BCgen",
           "store": "Zara Home",
           "status": "planned",
-          "price_chf": 399.0
+          "price": 399.0,
+          "currency": "CHF"
         },
         {
           "name": "Cida Lima ceramic head (M)",
@@ -107,31 +115,34 @@
           "name": "LEIRSUND slatted bed base (2)",
           "url": "https://www.google.com/search?q=IKEA+LEIRSUND+slatted+bed+base+%282%29",
           "store": "IKEA",
-          "price_chf": 240,
           "date_bought": "2026-04-24",
           "dimensions": "80 × 200 cm (each)",
           "image_url": "images/leirsund-bed-base.jpg",
-          "status": "owned"
+          "status": "owned",
+          "price": 240,
+          "currency": "CHF"
         },
         {
           "name": "VÅGSTRANDA pocket sprung mattress (medium firm)",
           "url": "https://www.google.com/search?q=IKEA+V%C3%85GSTRANDA+pocket+sprung+mattress+%28medium+firm%29",
           "store": "IKEA",
-          "price_chf": 269,
           "date_bought": "2026-04-12",
           "dimensions": "80 × 200 cm",
           "image_url": "images/vagstranda-mattress-medium.jpg",
-          "status": "owned"
+          "status": "owned",
+          "price": 269,
+          "currency": "CHF"
         },
         {
           "name": "VÅGSTRANDA pocket sprung mattress (firm)",
           "url": "https://www.google.com/search?q=IKEA+V%C3%85GSTRANDA+pocket+sprung+mattress+%28firm%29",
           "store": "IKEA",
-          "price_chf": 269,
           "date_bought": "2026-04-12",
           "dimensions": "80 × 200 cm",
           "image_url": "images/vagstranda-mattress-firm.jpg",
-          "status": "owned"
+          "status": "owned",
+          "price": 269,
+          "currency": "CHF"
         },
         {
           "name": "Petter wall-mounted nightstand (acacia wood)",
@@ -145,15 +156,17 @@
           "name": "Agura bed 160 × 200",
           "url": "https://www.google.com/search?q=Agura+bed+160+%C3%97+200",
           "status": "planned",
-          "price_chf": 885.0,
-          "image_url": "images/agura-bed.avif"
+          "image_url": "images/agura-bed.avif",
+          "price": 885.0,
+          "currency": "CHF"
         },
         {
           "name": "Xiaomi Mi Smart Projector 2",
           "url": "https://www.google.com/search?q=Xiaomi+Mi+Smart+Projector+2",
           "status": "planned",
           "image_url": "images/xiaomi-projector-2.jpg",
-          "price_chf": 499.0
+          "price": 499.0,
+          "currency": "CHF"
         },
         {
           "name": "IKEA Nordmela 4-drawer dresser",
@@ -174,9 +187,10 @@
           "url": "https://www.google.com/search?q=Helda+stool+65+cm+%28beige+chenille+%2B+solid+oak%29",
           "store": "Kave Home",
           "status": "planned",
-          "price_chf": 319,
           "image_url": "https://d.media.kavehome.com/image/upload/w_900,f_auto,c_fill,g_auto,ar_0.8,dpr_2/v1727859217/products/C0600041MY12H_1V01.jpg",
-          "dimensions": "46 × 50 × 96 cm"
+          "dimensions": "46 × 50 × 96 cm",
+          "price": 319,
+          "currency": "CHF"
         },
         {
           "name": "KitchenAid Mini stand mixer (red)",
@@ -194,11 +208,12 @@
           "name": "KRANBALK ceiling lamp (beige)",
           "url": "https://www.google.com/search?q=IKEA+KRANBALK+ceiling+lamp+%28beige%29",
           "store": "IKEA",
-          "price_chf": 49.95,
           "date_bought": "2025-09-12",
           "image_url": "images/kranbalk-ceiling-lamp.jpg",
           "status": "owned",
-          "dimensions": "49 × 43 × 37 cm"
+          "dimensions": "49 × 43 × 37 cm",
+          "price": 49.95,
+          "currency": "CHF"
         },
         {
           "name": "Google Nest Audio",
@@ -206,8 +221,9 @@
           "store": "Google",
           "status": "owned",
           "date_bought": "2026-05-27",
-          "price_chf": 109.0,
-          "image_url": "images/nest-audio.jpg"
+          "image_url": "images/nest-audio.jpg",
+          "price": 109.0,
+          "currency": "CHF"
         }
       ]
     },
@@ -219,47 +235,52 @@
           "name": "ROMY 3-seater sofa with sleeper function (dark blue)",
           "url": "https://www.google.com/search?q=ROMY+3-seater+sofa+with+sleeper+function+%28dark+blue%29",
           "store": "Maisons du Monde",
-          "price_chf": 1499,
           "date_bought": "2025-08-28",
           "image_url": "images/romy-sofa.jpg",
           "status": "owned",
-          "dimensions": "L 202 × T 103 × H 88 cm (89 kg)"
+          "dimensions": "L 202 × T 103 × H 88 cm (89 kg)",
+          "price": 1499,
+          "currency": "CHF"
         },
         {
           "name": "MALMO desk with 2 drawers (solid acacia wood)",
           "url": "https://www.google.com/search?q=MALMO+desk+with+2+drawers+%28solid+acacia+wood%29",
           "store": "Maisons du Monde",
-          "price_chf": 383.95,
           "date_bought": "2024-08-31",
           "dimensions": "B 125 × H 62 × T 29 cm | 36kg",
           "status": "owned",
-          "image_url": "images/malmo-desk.jpg"
+          "image_url": "images/malmo-desk.jpg",
+          "price": 383.95,
+          "currency": "CHF"
         },
         {
           "name": "Dottore office swivel chair (black)",
           "url": "https://www.google.com/search?q=KARE+Dottore+office+swivel+chair+%28black%29",
           "store": "KARE Design",
           "status": "owned",
-          "price_chf": 479,
           "date_bought": "2026-05-27",
           "image_url": "images/dottore-chair.jpg",
-          "dimensions": "78 × 44 × 50 cm"
+          "dimensions": "78 × 44 × 50 cm",
+          "price": 479,
+          "currency": "CHF"
         },
         {
           "name": "Wind Calm ceiling fan (natural wood)",
           "url": "https://www.google.com/search?q=Wind+Calm+ceiling+fan+%28natural+wood%29",
           "store": "Create",
           "status": "owned",
-          "price_chf": 129.95,
-          "image_url": "https://cdn.create-store.com/de/5183288/wind-calm-natural-wood.jpg"
+          "image_url": "https://cdn.create-store.com/de/5183288/wind-calm-natural-wood.jpg",
+          "price": 129.95,
+          "currency": "CHF"
         },
         {
           "name": "Casio CDP-S110BK digital piano (88 weighted keys, black)",
           "url": "https://www.google.com/search?q=Casio+CDP-S110BK+digital+piano+%2888+weighted+keys%2C+black%29",
           "store": "Amazon.de",
           "status": "owned",
-          "price_chf": 270,
-          "image_url": "https://static01.galaxus.com/productimages/4/9/1/2/5/8/8/7/5/1/4/2/6/2/4/0/9/4/2/fc8aae3b-0747-4bc8-bd15-6e822df185c0_cropped.jpg_720.jpeg"
+          "image_url": "https://static01.galaxus.com/productimages/4/9/1/2/5/8/8/7/5/1/4/2/6/2/4/0/9/4/2/fc8aae3b-0747-4bc8-bd15-6e822df185c0_cropped.jpg_720.jpeg",
+          "price": 270,
+          "currency": "CHF"
         },
         {
           "name": "Google Nest Audio",
@@ -267,8 +288,9 @@
           "store": "Google",
           "status": "owned",
           "date_bought": "2026-05-27",
-          "price_chf": 79.9,
-          "image_url": "images/nest-audio.jpg"
+          "image_url": "images/nest-audio.jpg",
+          "price": 79.9,
+          "currency": "CHF"
         },
         {
           "name": "House Doctor Tolley trolley (burgundy)",
@@ -302,26 +324,29 @@
           "name": "Jute pouf Clemens (natural)",
           "url": "https://www.google.com/search?q=Jute+pouf+Clemens+%28natural%29",
           "store": "DEPOT",
-          "price_chf": 83.3,
           "date_bought": "2022-02-17",
           "dimensions": "B 60 × H 35 × T 60 cm",
-          "status": "owned"
+          "status": "owned",
+          "price": 83.3,
+          "currency": "CHF"
         },
         {
           "name": "Fatboy Original Outdoor bean bag (red)",
           "url": "https://www.google.com/search?q=Fatboy+Original+Outdoor+bean+bag+%28red%29",
           "store": "Fatboy",
-          "price_chf": 339,
           "dimensions": "134 × 180 cm",
           "status": "planned",
-          "image_url": "https://www.fatboy.com/dw/image/v2/BLBH_PRD/on/demandware.static/-/Sites-master-catalog/default/dw59df1a4f/assets/image/105299/fatboy-original-outdoor-red-1920x1280-packshot-01-105299.jpg?sw=1920&q=80&fmt=webp"
+          "image_url": "https://www.fatboy.com/dw/image/v2/BLBH_PRD/on/demandware.static/-/Sites-master-catalog/default/dw59df1a4f/assets/image/105299/fatboy-original-outdoor-red-1920x1280-packshot-01-105299.jpg?sw=1920&q=80&fmt=webp",
+          "price": 339,
+          "currency": "CHF"
         },
         {
           "name": "Ooni Koda 12 gas pizza oven",
           "url": "https://www.google.com/search?q=Ooni+Koda+12+gas+pizza+oven",
           "status": "planned",
           "image_url": "images/ooni-koda-12.avif",
-          "price_chf": 499.0
+          "price": 499.0,
+          "currency": "CHF"
         }
       ]
     },
@@ -334,7 +359,8 @@
           "url": "https://www.google.com/search?q=Wahoo+Kickr+Core+smart+bike+trainer",
           "status": "planned",
           "image_url": "images/wahoo-kickr-core.jpg",
-          "price_chf": 869.0
+          "price": 869.0,
+          "currency": "CHF"
         }
       ]
     }

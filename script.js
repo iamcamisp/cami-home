@@ -91,7 +91,10 @@ function renderCard(it) {
 
   const store = it.store ? `<div class="store">${escape(it.store)}</div>` : "";
   const parts = [];
-  if (it.price_chf != null && typeof it.price_chf === "number") parts.push(fmtCHF(it.price_chf));
+  // Support both new schema (price + currency) and legacy (price_chf)
+  const priceVal = (typeof it.price === "number") ? it.price : it.price_chf;
+  const priceCur = it.currency || "CHF";
+  if (typeof priceVal === "number") parts.push(fmtMoney(priceVal, priceCur));
   if ((status === "owned" || status === "to-sell") && it.date_bought) parts.push(fmtDate(it.date_bought));
   if (status === "sold" && it.date_sold) parts.push(`sold ${fmtDate(it.date_sold)}`);
   const line = parts.length
@@ -122,13 +125,23 @@ function renderCard(it) {
   `;
 }
 
-function fmtCHF(n) {
-  return new Intl.NumberFormat("de-CH", {
-    style: "currency",
-    currency: "CHF",
-    maximumFractionDigits: 0,
-  }).format(n);
+const CURRENCY_LOCALE = { CHF: "de-CH", EUR: "de-DE", BRL: "pt-BR", USD: "en-US", GBP: "en-GB" };
+
+function fmtMoney(amount, currency) {
+  const cur = (currency || "CHF").toUpperCase();
+  try {
+    return new Intl.NumberFormat(CURRENCY_LOCALE[cur] || "de-CH", {
+      style: "currency",
+      currency: cur,
+      maximumFractionDigits: 0,
+    }).format(amount);
+  } catch {
+    return `${cur} ${amount}`;
+  }
 }
+
+// Backward-compat shim — items still using price_chf keep working
+function fmtCHF(n) { return fmtMoney(n, "CHF"); }
 
 function fmtDate(iso) {
   if (!iso) return "";

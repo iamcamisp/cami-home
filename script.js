@@ -90,22 +90,17 @@ function renderCard(it) {
     : `<div class="image broken"></div>`;
 
   const store = it.store ? `<div class="store">${escape(it.store)}</div>` : "";
-  let detail = "";
-  if (status === "owned" || status === "sold" || status === "to-sell") {
-    const parts = [];
-    if (it.price_chf != null) parts.push(fmtCHF(it.price_chf));
-    if ((status === "owned" || status === "to-sell") && it.date_bought) parts.push(fmtDate(it.date_bought));
-    if (status === "sold" && it.date_sold) parts.push(`sold ${fmtDate(it.date_sold)}`);
-    const line = parts.length
-      ? `<div class="meta">${parts.map(escape).join(" · ")}</div>`
-      : "";
-    const dims = it.dimensions
-      ? `<div class="dims">${escape(it.dimensions)}</div>`
-      : "";
-    detail = `${line}${dims}`;
-  } else if (it.dimensions) {
-    detail = `<div class="dims">${escape(it.dimensions)}</div>`;
-  }
+  const parts = [];
+  if (it.price_chf != null && typeof it.price_chf === "number") parts.push(fmtCHF(it.price_chf));
+  if ((status === "owned" || status === "to-sell") && it.date_bought) parts.push(fmtDate(it.date_bought));
+  if (status === "sold" && it.date_sold) parts.push(`sold ${fmtDate(it.date_sold)}`);
+  const line = parts.length
+    ? `<div class="meta">${parts.map(escape).join(" · ")}</div>`
+    : "";
+  const dims = it.dimensions
+    ? `<div class="dims">${escape(it.dimensions)}</div>`
+    : "";
+  const detail = `${line}${dims}`;
   const tagText =
     status === "owned" ? "Owned" :
     status === "planned" ? "Planned" :

@@ -250,6 +250,28 @@
           "price": 48,
           "currency": "EUR",
           "image_url": "images/orilamp.png"
+        },
+        {
+          "name": "ARIPO metal table lamp with USB port (gold)",
+          "url": "https://www.beliani.ch/de/lampen/tischlampen/tischlampe-gold-aripo.html",
+          "status": "owned",
+          "date_bought": "2023-04-25",
+          "price": 129.99,
+          "currency": "EUR",
+          "image_url": "images/aripo-table-lamp.webp",
+          "brand": "Beliani",
+          "category": "lighting"
+        },
+        {
+          "name": "Cement-finish side table × 2",
+          "url": "https://www.zarahome.com/ch/de/search?term=tisch+zementausf%C3%BChrung",
+          "status": "owned",
+          "date_bought": "2023-02-13",
+          "price": 358,
+          "currency": "EUR",
+          "image_url": "images/zara-home-cement-table.png",
+          "brand": "Zara Home",
+          "category": "furniture"
         }
       ]
     },
@@ -273,6 +295,8 @@
           "url": "https://www.google.com/search?q=KitchenAid+Mini+stand+mixer+%28red%29",
           "status": "owned",
           "image_url": "images/kitchenaid-mini-red.jpg",
+          "price": 319.97,
+          "currency": "EUR",
           "brand": "KitchenAid",
           "category": "appliances"
         },

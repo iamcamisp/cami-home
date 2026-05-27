@@ -219,7 +219,9 @@
           "url": "https://www.google.com/search?q=IKEA+Franklin+foldable+bar+stool+%28white%2C+%C3%97+4%29",
           "status": "to-sell",
           "image_url": "images/franklin-bar-stool.jpg",
-          "brand": "IKEA"
+          "brand": "IKEA",
+          "price": 159.8,
+          "currency": "CHF"
         }
       ]
     },

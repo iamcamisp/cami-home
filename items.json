@@ -46,7 +46,8 @@
           "store": "IKEA",
           "status": "owned",
           "date_bought": "2026-05-27",
-          "image_url": "images/ekenaset-armchair.jpg"
+          "image_url": "images/ekenaset-armchair.jpg",
+          "dimensions": "64 × 81 × 75 cm"
         }
       ]
     },
@@ -103,7 +104,8 @@
           "store": "Kave Home",
           "status": "planned",
           "price_chf": 319,
-          "image_url": "https://d.media.kavehome.com/image/upload/w_900,f_auto,c_fill,g_auto,ar_0.8,dpr_2/v1727859217/products/C0600041MY12H_1V01.jpg"
+          "image_url": "https://d.media.kavehome.com/image/upload/w_900,f_auto,c_fill,g_auto,ar_0.8,dpr_2/v1727859217/products/C0600041MY12H_1V01.jpg",
+          "dimensions": "46 × 50 × 96 cm"
         }
       ]
     },
@@ -118,7 +120,8 @@
           "price_chf": 49.95,
           "date_bought": "2025-09-12",
           "image_url": "images/kranbalk-ceiling-lamp.jpg",
-          "status": "owned"
+          "status": "owned",
+          "dimensions": "49 × 43 × 37 cm"
         }
       ]
     },
@@ -152,7 +155,8 @@
           "status": "owned",
           "price_chf": 479,
           "date_bought": "2026-05-27",
-          "image_url": "images/dottore-chair.jpg"
+          "image_url": "images/dottore-chair.jpg",
+          "dimensions": "78 × 44 × 50 cm"
         },
         {
           "name": "Wind Calm ceiling fan (natural wood)",

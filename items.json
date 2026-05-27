@@ -31,6 +31,14 @@
           "status": "owned",
           "date_bought": "2026-05-27",
           "image_url": "images/kadey-rug.jpg"
+        },
+        {
+          "name": "H&M Home item (1105665002)",
+          "url": "https://www.google.com/search?q=H%26M+Home+item+%281105665002%29",
+          "store": "H&M Home",
+          "status": "owned",
+          "date_bought": "2026-05-27",
+          "image_url": "images/hm-1105665002.jpg"
         }
       ]
     },

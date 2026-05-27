@@ -17,8 +17,8 @@
           "brand": "Maisons du Monde"
         },
         {
-          "name": "Decorative oak ladder",
-          "url": "https://www.google.com/search?q=Decorative+oak+ladder",
+          "name": "Decorative ladder (oak)",
+          "url": "https://www.google.com/search?q=Maisons+du+Monde+Decorative+ladder+%28oak%29",
           "date_bought": "2023-02-05",
           "status": "sold",
           "image_url": "images/oak-ladder.jpg",
@@ -27,8 +27,8 @@
           "brand": "Maisons du Monde"
         },
         {
-          "name": "Kadey hand-tufted wool rug (organic shape)",
-          "url": "https://www.google.com/search?q=Kadey+hand-tufted+wool+rug+%28organic+shape%29",
+          "name": "Kadey hand-tufted rug (wool, organic shape)",
+          "url": "https://www.google.com/search?q=Westwing+Kadey+hand-tufted+rug+%28wool%2C+organic+shape%29",
           "status": "owned",
           "date_bought": "2026-05-27",
           "image_url": "images/kadey-rug.jpg",
@@ -85,8 +85,8 @@
           "brand": "Zara Home"
         },
         {
-          "name": "Ceramic head (M)",
-          "url": "https://www.google.com/search?q=Cida+Lima+cabe%C3%A7a+cer%C3%A2mica+M",
+          "name": "Head (ceramic, M)",
+          "url": "https://www.google.com/search?q=Cida+Lima+Head+%28ceramic%2C+M%29",
           "status": "owned",
           "price": 260,
           "currency": "BRL",
@@ -95,8 +95,8 @@
           "brand": "Cida Lima"
         },
         {
-          "name": "Ceramic head (PP)",
-          "url": "https://www.google.com/search?q=Cida+Lima+cabe%C3%A7a+cer%C3%A2mica+P",
+          "name": "Head (ceramic, PP)",
+          "url": "https://www.google.com/search?q=Cida+Lima+Head+%28ceramic%2C+PP%29",
           "status": "owned",
           "price": 135,
           "currency": "BRL",
@@ -121,8 +121,8 @@
       "name": "Bedroom",
       "items": [
         {
-          "name": "LEIRSUND slatted bed base (2)",
-          "url": "https://www.google.com/search?q=IKEA+LEIRSUND+slatted+bed+base+%282%29",
+          "name": "LEIRSUND slatted bed base × 2",
+          "url": "https://www.google.com/search?q=IKEA+LEIRSUND+slatted+bed+base+%C3%97+2",
           "date_bought": "2026-04-24",
           "dimensions": "W 80 × L 200 cm (each)",
           "image_url": "images/leirsund-bed-base.jpg",
@@ -154,8 +154,8 @@
           "brand": "IKEA"
         },
         {
-          "name": "Petter wall-mounted nightstand (acacia, × 2)",
-          "url": "https://www.google.com/search?q=Petter+wall-mounted+nightstand+%28acacia%2C+%C3%97+2%29",
+          "name": "Petter wall-mounted nightstand (acacia) × 2",
+          "url": "https://www.google.com/search?q=Sklum+Petter+wall-mounted+nightstand+%28acacia%29+%C3%97+2",
           "status": "owned",
           "date_bought": "2025-02-03",
           "image_url": "images/petter-nightstand.jpg",
@@ -198,8 +198,8 @@
       "name": "Kitchen",
       "items": [
         {
-          "name": "Helda stool 65 cm (beige chenille + solid oak, set of 4)",
-          "url": "https://www.google.com/search?q=Helda+stool+65+cm+%28beige+chenille+%2B+solid+oak%29",
+          "name": "Helda stool 65 cm (beige chenille, solid oak) × 4",
+          "url": "https://www.google.com/search?q=Kave+Home+Helda+stool+65+cm+%28beige+chenille%2C+solid+oak%29+%C3%97+4",
           "status": "planned",
           "image_url": "https://d.media.kavehome.com/image/upload/w_900,f_auto,c_fill,g_auto,ar_0.8,dpr_2/v1727859217/products/C0600041MY12H_1V01.jpg",
           "dimensions": "W 46 × D 50 × H 96 cm",
@@ -215,8 +215,8 @@
           "brand": "KitchenAid"
         },
         {
-          "name": "Franklin foldable bar stool (white, × 4)",
-          "url": "https://www.google.com/search?q=IKEA+Franklin+foldable+bar+stool+%28white%2C+%C3%97+4%29",
+          "name": "Franklin foldable bar stool (white) × 4",
+          "url": "https://www.google.com/search?q=IKEA+Franklin+foldable+bar+stool+%28white%29+%C3%97+4",
           "status": "to-sell",
           "image_url": "images/franklin-bar-stool.jpg",
           "brand": "IKEA",
@@ -329,8 +329,8 @@
           "brand": "House Doctor"
         },
         {
-          "name": "Round alabaster table lamp",
-          "url": "https://www.zarahome.com/ch/en/round-alabaster-table-lamp-l47127047",
+          "name": "Round table lamp (alabaster)",
+          "url": "https://www.google.com/search?q=Zara+Home+Round+table+lamp+%28alabaster%29",
           "status": "owned",
           "date_bought": "2026-05-24",
           "image_url": "images/zara-semioval-alabaster-lamp.jpg",
@@ -339,8 +339,8 @@
           "brand": "Zara Home"
         },
         {
-          "name": "Semioval alabaster table lamp",
-          "url": "https://www.zarahome.com/ch/en/semioval-alabaster-table-lamp-l47128047",
+          "name": "Semioval table lamp (alabaster)",
+          "url": "https://www.google.com/search?q=Zara+Home+Semioval+table+lamp+%28alabaster%29",
           "status": "owned",
           "date_bought": "2026-05-24",
           "image_url": "images/zara-round-alabaster-lamp.jpg",
@@ -355,8 +355,8 @@
       "name": "Outdoor",
       "items": [
         {
-          "name": "Jute pouf Clemens (natural)",
-          "url": "https://www.google.com/search?q=Jute+pouf+Clemens+%28natural%29",
+          "name": "Pouf Clemens (jute, natural)",
+          "url": "https://www.google.com/search?q=DEPOT+Pouf+Clemens+%28jute%2C+natural%29",
           "date_bought": "2022-02-17",
           "dimensions": "W 60 × D 60 × H 35 cm",
           "status": "owned",

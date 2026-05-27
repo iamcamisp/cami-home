@@ -152,21 +152,24 @@
           "currency": "CHF"
         },
         {
-          "name": "Petter wall-mounted nightstand (acacia wood)",
-          "url": "https://www.google.com/search?q=Petter+wall-mounted+nightstand+%28acacia+wood%29",
+          "name": "Petter wall-mounted nightstand (acacia, × 2)",
+          "url": "https://www.google.com/search?q=Petter+wall-mounted+nightstand+%28acacia%2C+%C3%97+2%29",
           "store": "Sklum",
           "status": "owned",
-          "date_bought": "2026-05-27",
-          "image_url": "images/petter-nightstand.jpg"
+          "date_bought": "2025-02-03",
+          "image_url": "images/petter-nightstand.jpg",
+          "price": 279.9,
+          "currency": "EUR"
         },
         {
-          "name": "Agura bed 160 × 200",
-          "url": "https://www.google.com/search?q=Agura+bed+160+%C3%97+200",
-          "store":"La Redoute",
+          "name": "Agura bed",
+          "url": "https://www.google.com/search?q=Agura+bed+La+Redoute",
+          "store": "La Redoute",
           "status": "planned",
           "image_url": "images/agura-bed.avif",
           "price": 486.5,
-          "currency": "CHF"
+          "currency": "CHF",
+          "dimensions": "160 × 200 cm"
         },
         {
           "name": "Mi Smart Projector 2",
@@ -183,7 +186,8 @@
           "store": "IKEA",
           "status": "owned",
           "date_bought": "2026-05-27",
-          "image_url": "images/nordmela-dresser.jpg"
+          "image_url": "images/nordmela-dresser.jpg",
+          "dimensions": "159 × 40 × 50 cm"
         }
       ]
     },
@@ -303,13 +307,15 @@
           "currency": "CHF"
         },
         {
-          "name": "Trolley (burgundy)",
-          "store":"House Doctor",
-          "url": "https://www.google.com/search?q=House+Doctor+Tolley+trolley+burgundy",
-          "status": "planned",
+          "name": "House Doctor trolley (burgundy)",
+          "store": "House Doctor",
+          "url": "https://www.google.com/search?q=House+Doctor+trolley+%28burgundy%29",
+          "status": "owned",
           "image_url": "images/house-doctor-trolley.webp",
           "price": 130,
-          "currency": "CHF"
+          "currency": "CHF",
+          "date_bought": "2026-05-27",
+          "dimensions": "42 × 38 × 85 cm"
         },
         {
           "name": "Round alabaster table lamp",

@@ -212,7 +212,8 @@
         {
           "name": "Agura bed",
           "url": "https://www.google.com/search?q=Agura+bed+La+Redoute",
-          "status": "planned",
+          "status": "owned",
+          "date_bought": "2026-05-28",
           "image_url": "images/agura-bed.avif",
           "price": 486.5,
           "currency": "CHF",

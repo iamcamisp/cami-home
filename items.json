@@ -321,7 +321,8 @@
           "status": "sold",
           "image_url": "images/franklin-bar-stool.jpg",
           "brand": "IKEA",
-          "price": 40,
+          "price": 159.8,
+          "sold_price": 40,
           "currency": "CHF",
           "category": "furniture"
         },

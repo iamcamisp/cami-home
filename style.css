@@ -286,6 +286,17 @@ main {
   margin-top: 2px;
 }
 
+.card .price-original {
+  text-decoration: line-through;
+  color: var(--muted);
+  font-weight: 400;
+}
+
+.card .price-sold {
+  color: var(--ink);
+  font-weight: 600;
+}
+
 .card .dims {
   font-size: 0.78rem;
   color: var(--muted);

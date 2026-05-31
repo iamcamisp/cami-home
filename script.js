@@ -134,11 +134,21 @@ function renderCard(it) {
   // Support both new schema (price + currency) and legacy (price_chf)
   const priceVal = (typeof it.price === "number") ? it.price : it.price_chf;
   const priceCur = it.currency || "CHF";
-  if (typeof priceVal === "number") parts.push(fmtMoney(priceVal, priceCur));
-  if ((status === "owned" || status === "to-sell") && it.date_bought) parts.push(fmtDate(it.date_bought));
-  if (status === "sold" && it.date_sold) parts.push(`sold ${fmtDate(it.date_sold)}`);
+  if (typeof priceVal === "number") {
+    if (status === "sold" && typeof it.sold_price === "number") {
+      // Original price struck through, sold price next to it
+      parts.push(
+        `<span class="price-original">${escape(fmtMoney(priceVal, priceCur))}</span> ` +
+        `<span class="price-sold">${escape(fmtMoney(it.sold_price, priceCur))}</span>`
+      );
+    } else {
+      parts.push(escape(fmtMoney(priceVal, priceCur)));
+    }
+  }
+  if ((status === "owned" || status === "to-sell") && it.date_bought) parts.push(escape(fmtDate(it.date_bought)));
+  if (status === "sold" && it.date_sold) parts.push(escape(`sold ${fmtDate(it.date_sold)}`));
   const line = parts.length
-    ? `<div class="meta">${parts.map(escape).join(" · ")}</div>`
+    ? `<div class="meta">${parts.join(" · ")}</div>`
     : "";
   const dims = it.dimensions
     ? `<div class="dims">${escape(it.dimensions)}</div>`

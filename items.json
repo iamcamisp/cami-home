@@ -189,6 +189,16 @@
           "currency": "BRL",
           "brand": "Instituto Terra",
           "category": "decor"
+        },
+        {
+          "name": "Alya rectangular dining table (solid acacia, 8–12 people)",
+          "url": "https://www.maisonsdumonde.com/CH/de/p/rechteckiger-esstisch-aus-massivem-akazienholz-8-12-personen-l240cm-alya-238747.htm",
+          "status": "planned",
+          "dimensions": "L 240 cm",
+          "price": 1199,
+          "currency": "CHF",
+          "brand": "Maisons du Monde",
+          "category": "furniture"
         }
       ]
     },

@@ -130,8 +130,10 @@
           "url": "https://www.ikea.com/ch/de/p/ringsta-skaftet-standleuchte-weiss-messing-s59385958/",
           "brand": "IKEA",
           "status": "owned",
-          "date_bought": "2026-05-27",
+          "date_bought": "2022-06-06",
           "image_url": "images/ringsta-skaftet-floor-lamp.jpg",
+          "price": 49.9,
+          "currency": "CHF",
           "category": "lighting"
         },
         {
@@ -316,10 +318,10 @@
         {
           "name": "Franklin foldable bar stool (white) × 4",
           "url": "https://www.google.com/search?q=IKEA+Franklin+foldable+bar+stool+%28white%29+%C3%97+4",
-          "status": "to-sell",
+          "status": "sold",
           "image_url": "images/franklin-bar-stool.jpg",
           "brand": "IKEA",
-          "price": 159.8,
+          "price": 40,
           "currency": "CHF",
           "category": "furniture"
         }
@@ -386,7 +388,7 @@
           "name": "Dottore office swivel chair (black)",
           "url": "https://www.google.com/search?q=KARE+Dottore+office+swivel+chair+%28black%29",
           "status": "owned",
-          "date_bought": "2026-05-27",
+          "date_bought": "2024-05-06",
           "image_url": "images/dottore-chair.jpg",
           "dimensions": "W 78 × D 44 × H 50 cm",
           "price": 479,
@@ -408,6 +410,7 @@
           "name": "CDP-S110BK digital piano (88 weighted keys, black)",
           "url": "https://www.google.com/search?q=Casio+CDP-S110BK+digital+piano+%2888+weighted+keys%2C+black%29",
           "status": "owned",
+          "date_bought": "2026-01-04",
           "image_url": "https://static01.galaxus.com/productimages/4/9/1/2/5/8/8/7/5/1/4/2/6/2/4/0/9/4/2/fc8aae3b-0747-4bc8-bd15-6e822df185c0_cropped.jpg_720.jpeg",
           "price": 270,
           "currency": "CHF",
@@ -458,6 +461,17 @@
           "currency": "EUR",
           "brand": "Zara Home",
           "category": "lighting"
+        },
+        {
+          "name": "Evolution high table 180×60 cm",
+          "url": "https://www.google.com/search?q=Mobili+Fiver+Evolution+Hoher+Tisch+180x60",
+          "status": "owned",
+          "date_bought": "2022-11-07",
+          "dimensions": "W 180 × D 60 cm",
+          "price": 371,
+          "currency": "CHF",
+          "brand": "Mobili Fiver",
+          "category": "furniture"
         }
       ]
     },
@@ -480,7 +494,8 @@
           "name": "Original Outdoor bean bag (red)",
           "url": "https://www.google.com/search?q=Fatboy+Original+Outdoor+bean+bag+%28red%29",
           "dimensions": "W 134 × L 180 cm",
-          "status": "planned",
+          "status": "owned",
+          "date_bought": "2026-06-01",
           "image_url": "https://www.fatboy.com/dw/image/v2/BLBH_PRD/on/demandware.static/-/Sites-master-catalog/default/dw59df1a4f/assets/image/105299/fatboy-original-outdoor-red-1920x1280-packshot-01-105299.jpg?sw=1920&q=80&fmt=webp",
           "price": 339,
           "currency": "CHF",

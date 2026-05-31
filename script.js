@@ -77,7 +77,12 @@ function render() {
   const allRooms = (DATA.rooms || [])
     .filter((r) => r && r.slug && r.name)
     .slice()
-    .sort((a, b) => a.name.localeCompare(b.name, "en"));
+    .sort((a, b) => {
+      // "Future Ideas" is always pinned to the bottom
+      if (a.slug === "future-ideas") return 1;
+      if (b.slug === "future-ideas") return -1;
+      return a.name.localeCompare(b.name, "en");
+    });
   // Filter + sort items
   const rooms = allRooms.map((r) => ({
     ...r,

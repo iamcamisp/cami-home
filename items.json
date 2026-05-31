@@ -157,6 +157,38 @@
           "currency": "CHF",
           "dimensions": "W 90 × D 90 × H 30 cm",
           "image_url": "images/eneas-coffee-table.jpg"
+        },
+        {
+          "name": "Author Clock (small)",
+          "url": "https://store.moma.org/en-ch/products/author-clock-small?variant=44170171023590",
+          "status": "planned",
+          "image_url": "images/moma-author-clock.jpg",
+          "dimensions": "W 12.7 × D 5.8 × H 8.9 cm",
+          "price": 195,
+          "currency": "CHF",
+          "brand": "Author Clock",
+          "category": "decor"
+        },
+        {
+          "name": "Amazônia poster Nº 01 — Sebastião Salgado",
+          "url": "https://institutoterra.commercesuite.com.br/artes/colecao-amazonia-posteres/poster-colecao-amazonia-sebastiao-salgado",
+          "status": "owned",
+          "dimensions": "W 50 × H 70 cm",
+          "price": 300,
+          "currency": "BRL",
+          "brand": "Instituto Terra",
+          "category": "decor"
+        },
+        {
+          "name": "Amazônia poster No. 06 — Sebastião Salgado",
+          "url": "https://institutoterra.org/produto/poster-from-the-amazon-collection-no-06/?lang=en",
+          "status": "owned",
+          "image_url": "images/salgado-poster-06.png",
+          "dimensions": "W 50 × H 70 cm",
+          "price": 300,
+          "currency": "BRL",
+          "brand": "Instituto Terra",
+          "category": "decor"
         }
       ]
     },
@@ -286,6 +318,16 @@
           "image_url": "images/lindbyn-mirror.jpg",
           "brand": "IKEA",
           "category": "decor"
+        },
+        {
+          "name": "Tony chest of 3 drawers (solid acacia, 90 cm)",
+          "url": "https://www.maisonsdumonde.com/CH/de/p/kommode-mit-3-schubladen-aus-massivem-akazienholz-90-cm-breit-tony-199098.htm",
+          "status": "planned",
+          "dimensions": "W 90 × D 47 × H 80 cm",
+          "price": 299,
+          "currency": "CHF",
+          "brand": "Maisons du Monde",
+          "category": "furniture"
         }
       ]
     },
@@ -522,6 +564,26 @@
           "currency": "CHF",
           "brand": "Ooni",
           "category": "appliances"
+        },
+        {
+          "name": "Samba folding chair",
+          "url": "https://fora.la/products/cadeira-samba?variant=43949839745135",
+          "status": "planned",
+          "image_url": "images/fora-samba-chair.png",
+          "dimensions": "W 49 × L 138 cm (open) / 56 cm (folded)",
+          "price": 417.05,
+          "currency": "BRL",
+          "brand": "Fora",
+          "category": "furniture"
+        },
+        {
+          "name": "Aldet outdoor solar table lamp (terracotta)",
+          "url": "https://kavehome.com/ch/en/p/aldet-outdoor-solar-table-lamp-in-terracotta-flat-rope-cord-with-metal-stand",
+          "status": "planned",
+          "price": 51.99,
+          "currency": "EUR",
+          "brand": "Kave Home",
+          "category": "lighting"
         }
       ]
     },
@@ -538,6 +600,13 @@
           "currency": "CHF",
           "brand": "Wahoo",
           "category": "electronics"
+        },
+        {
+          "name": "Cais Paraty canga + pouch (Amyr Klink collab)",
+          "url": "https://www.flaviaaranha.com/produto/canga-e-saquinho-cais-paraty-amyr-klink-3370",
+          "status": "planned",
+          "brand": "Flavia Aranha",
+          "category": "decor"
         }
       ]
     }

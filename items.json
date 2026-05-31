@@ -159,6 +159,16 @@
           "image_url": "images/eneas-coffee-table.jpg"
         },
         {
+          "name": "Mi Laser Projector 150''",
+          "url": "https://www.mi.com/de/product/mi-4k-laser-projector-150/",
+          "status": "planned",
+          "image_url": "images/xiaomi-laser-projector-150.jpg",
+          "price": 1299,
+          "currency": "EUR",
+          "brand": "Xiaomi",
+          "category": "electronics"
+        },
+        {
           "name": "Author Clock (small)",
           "url": "https://store.moma.org/en-ch/products/author-clock-small?variant=44170171023590",
           "status": "planned",

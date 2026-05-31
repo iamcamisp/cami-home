@@ -32,10 +32,10 @@
           "name": "Kadey hand-tufted rug (wool, organic shape)",
           "url": "https://www.google.com/search?q=Westwing+Kadey+hand-tufted+rug+%28wool%2C+organic+shape%29",
           "status": "owned",
-          "date_bought": "2026-05-27",
+          "date_bought": "2025-08-10",
           "image_url": "images/kadey-rug.jpg",
           "price": 549,
-          "currency": "CHF",
+          "currency": "EUR",
           "brand": "Westwing",
           "category": "decor"
         },
@@ -324,6 +324,17 @@
           "price": 40,
           "currency": "CHF",
           "category": "furniture"
+        },
+        {
+          "name": "Evolution high table 180×60 cm",
+          "url": "https://www.google.com/search?q=Mobili+Fiver+Evolution+Hoher+Tisch+180x60",
+          "status": "owned",
+          "date_bought": "2022-11-07",
+          "dimensions": "W 180 × D 60 cm",
+          "price": 371,
+          "currency": "CHF",
+          "brand": "Mobili Fiver",
+          "category": "furniture"
         }
       ]
     },
@@ -461,17 +472,6 @@
           "currency": "EUR",
           "brand": "Zara Home",
           "category": "lighting"
-        },
-        {
-          "name": "Evolution high table 180×60 cm",
-          "url": "https://www.google.com/search?q=Mobili+Fiver+Evolution+Hoher+Tisch+180x60",
-          "status": "owned",
-          "date_bought": "2022-11-07",
-          "dimensions": "W 180 × D 60 cm",
-          "price": 371,
-          "currency": "CHF",
-          "brand": "Mobili Fiver",
-          "category": "furniture"
         }
       ]
     },

@@ -516,6 +516,17 @@
           "currency": "EUR",
           "brand": "Zara Home",
           "category": "lighting"
+        },
+        {
+          "name": "Sober floor lamp (brass)",
+          "url": "https://markslojd.com/products/sober-floor-lamp-brass",
+          "status": "owned",
+          "image_url": "images/markslojd-sober-floor-lamp.jpg",
+          "dimensions": "H 141 × W 25 × D 25 cm",
+          "price": 999,
+          "currency": "SEK",
+          "brand": "Markslöjd",
+          "category": "lighting"
         }
       ]
     },
